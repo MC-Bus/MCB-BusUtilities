@@ -1,0 +1,157 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bab",
+          "text": {
+            "fixedValue": "BAB"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 203,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_banque_a_blokos",
+          "text": {
+            "fixedValue": "Banque A Blokos"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bonjour",
+          "text": {
+            "fixedValue": "Bonjour"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 193,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nom_joueur",
+          "text": {
+            "fixedValue": "NOM JOUEUR",
+            "name": "InfoBAB0"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 193,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_retraits",
+          "text": "Retraits",
+          "onClick": {
+            "name": "OuvertureRetraitsBAB"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 136,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_depots",
+          "text": "Dépots",
+          "onClick": {
+            "name": "OuvertureDepotBAB"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 229,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vous_avez",
+          "text": {
+            "fixedValue": "Vous avez :"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 183,
+          "y": 141
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos",
+          "text": {
+            "fixedValue": "BLOKOS",
+            "name": "InfoBAB1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 198,
+          "y": 157
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos1",
+          "text": {
+            "fixedValue": "Blokos"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 172
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

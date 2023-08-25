@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "busutilities:block/cryptophone_upgrade_table_down",
+    "up": "busutilities:block/cryptophone_upgrade_table_top",
+    "north": "busutilities:block/cryptophone_upgrade_table_faces",
+    "east": "busutilities:block/cryptophone_upgrade_table_faces",
+    "south": "busutilities:block/cryptophone_upgrade_table_faces",
+    "west": "busutilities:block/cryptophone_upgrade_table_faces",
+    "particle": "busutilities:block/cryptophone_upgrade_table_down"
+  },
+  "render_type": "solid"
+}

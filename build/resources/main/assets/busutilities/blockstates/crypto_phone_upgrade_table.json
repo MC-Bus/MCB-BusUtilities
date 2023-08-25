@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "busutilities:block/crypto_phone_upgrade_table"
+    }
+  }
+}
