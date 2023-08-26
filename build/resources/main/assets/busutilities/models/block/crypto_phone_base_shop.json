@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "busutilities:block/buyticketcarddown",
+    "up": "busutilities:block/cryptophonecoreshop_top",
+    "north": "busutilities:block/cryptophoneshop_face",
+    "east": "busutilities:block/cryptophoneshop_face",
+    "south": "busutilities:block/cryptophoneshop_face",
+    "west": "busutilities:block/cryptophoneshop_face",
+    "particle": "busutilities:block/buyticketcarddown"
+  },
+  "render_type": "solid"
+}

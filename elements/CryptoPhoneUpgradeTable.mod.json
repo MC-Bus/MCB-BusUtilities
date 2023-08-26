@@ -10,7 +10,7 @@
     "textureBack": "cryptophone_upgrade_table_faces",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BusUtilitiesCreatifTab"
+      "value": "CUSTOM:BusUtilistiesTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {

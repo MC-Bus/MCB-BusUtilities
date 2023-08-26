@@ -11,9 +11,16 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import fr.blocblocthebloc.busutilities.client.gui.TermsBlocGUIScreen;
 import fr.blocblocthebloc.busutilities.client.gui.RetraitsBanqueScreen;
 import fr.blocblocthebloc.busutilities.client.gui.DepotsBanqueScreen;
+import fr.blocblocthebloc.busutilities.client.gui.DebugBlokosSysScreen;
 import fr.blocblocthebloc.busutilities.client.gui.CryptoPhoneUpgradeGUIScreen;
+import fr.blocblocthebloc.busutilities.client.gui.CryptoPhoneCoreShopPhysiqueGUIScreen;
+import fr.blocblocthebloc.busutilities.client.gui.CryptoPhoneCoreShopBanqueGUIScreen;
+import fr.blocblocthebloc.busutilities.client.gui.CalculeBlocGUIScreen;
+import fr.blocblocthebloc.busutilities.client.gui.BoutiqueTicketCartesGUIScreen;
+import fr.blocblocthebloc.busutilities.client.gui.BoutiqueTicketCartesBankModeGUIScreen;
 import fr.blocblocthebloc.busutilities.client.gui.BanqueablokosScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -25,6 +32,13 @@ public class BusutilitiesModScreens {
 			MenuScreens.register(BusutilitiesModMenus.RETRAITS_BANQUE.get(), RetraitsBanqueScreen::new);
 			MenuScreens.register(BusutilitiesModMenus.DEPOTS_BANQUE.get(), DepotsBanqueScreen::new);
 			MenuScreens.register(BusutilitiesModMenus.CRYPTO_PHONE_UPGRADE_GUI.get(), CryptoPhoneUpgradeGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.CRYPTO_PHONE_CORE_SHOP_PHYSIQUE_GUI.get(), CryptoPhoneCoreShopPhysiqueGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.CRYPTO_PHONE_CORE_SHOP_BANQUE_GUI.get(), CryptoPhoneCoreShopBanqueGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.DEBUG_BLOKOS_SYS.get(), DebugBlokosSysScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.TERMS_BLOC_GUI.get(), TermsBlocGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.CALCULE_BLOC_GUI.get(), CalculeBlocGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.BOUTIQUE_TICKET_CARTES_GUI.get(), BoutiqueTicketCartesGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.BOUTIQUE_TICKET_CARTES_BANK_MODE_GUI.get(), BoutiqueTicketCartesBankModeGUIScreen::new);
 		});
 	}
 }

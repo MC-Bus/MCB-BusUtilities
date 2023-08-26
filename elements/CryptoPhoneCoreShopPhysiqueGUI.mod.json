@@ -1,0 +1,272 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 181,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boutique_de_coeur_de_cryptophone",
+          "text": {
+            "fixedValue": "Boutique de Coeur de CryptoPhone"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_paiement_physique",
+          "text": {
+            "fixedValue": "Paiement physique"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coeur_advence",
+          "text": "Coeur Advence",
+          "onClick": {
+            "name": "CryptoPhoneCoreAdvenceActionShop"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 26,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coeur_max",
+          "text": "Coeur Max",
+          "onClick": {
+            "name": "CryptoPhoneCoreMaxActionShop"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 47,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coeur_pro",
+          "text": "Coeur Pro",
+          "onClick": {
+            "name": "CryptoPhoneCoreProActionShop"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 305,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coeur_elite",
+          "text": "Coeur Élite",
+          "onClick": {
+            "name": "CryptoPhoneCoreEliteActionShop"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 305,
+          "y": 70
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Blokos"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 161,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryptophone_mini_core.png",
+          "use1Xscale": false,
+          "x": 22,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryptophone_advence_core.png",
+          "use1Xscale": false,
+          "x": 8,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryptophone_max_core.png",
+          "use1Xscale": false,
+          "x": 29,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryptophone_pro_core.png",
+          "use1Xscale": false,
+          "x": 381,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryptophone_elite_core.png",
+          "use1Xscale": false,
+          "x": 392,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 237,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_coeur_mini",
+          "text": "Coeur Mini",
+          "onClick": {
+            "name": "CryptoPhoneCoreMiniActionShop"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 41,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coeur_mini_8_blokos",
+          "text": {
+            "fixedValue": "Coeur Mini = 8 B"
+          },
+          "color": {
+            "value": -9044002,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coeur_advence_30_blokos",
+          "text": {
+            "fixedValue": "Coeur Advence = 30 B"
+          },
+          "color": {
+            "value": -14928129,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coeur_max_45_b",
+          "text": {
+            "fixedValue": "Coeur Max = 45 B"
+          },
+          "color": {
+            "value": -589991,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 181
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coeur_pro_64_b",
+          "text": {
+            "fixedValue": "Coeur Pro = 64 B"
+          },
+          "color": {
+            "value": -54471,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 196
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coeur_elite_128_b_paiement_ba",
+          "text": {
+            "fixedValue": "Coeur Élite = 128 B (Paiement Bancaire Uniquement)"
+          },
+          "color": {
+            "value": -12058369,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 208
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

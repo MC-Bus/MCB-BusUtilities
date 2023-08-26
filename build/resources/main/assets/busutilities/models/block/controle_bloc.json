@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "busutilities:block/machine_verif_down",
+    "up": "busutilities:block/machine_verif_top",
+    "north": "busutilities:block/machine_verif_front",
+    "east": "busutilities:block/machine_verif_side_back",
+    "south": "busutilities:block/machine_verif_side_back",
+    "west": "busutilities:block/machine_verif_side_back",
+    "particle": "busutilities:block/machine_verif_down"
+  },
+  "render_type": "solid"
+}

@@ -8,7 +8,7 @@
     "name": "Blokos",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:BusUtilitiesCreatifTab"
+      "value": "CUSTOM:BlokosMoneySystem"
     },
     "stackSize": 64,
     "enchantability": 0,

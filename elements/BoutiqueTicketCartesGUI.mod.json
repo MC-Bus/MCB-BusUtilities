@@ -1,0 +1,160 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boutique_de_tickets",
+          "text": {
+            "fixedValue": "Boutique de Tickets"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 164,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_et_cartes_de_transport",
+          "text": {
+            "fixedValue": "et Cartes de transport"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mode_de_paiement_physique",
+          "text": {
+            "fixedValue": "Mode de paiement : Physique"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 5,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_liste_des_tickets",
+          "text": "Liste des Tickets",
+          "width": 113,
+          "height": 20,
+          "x": 155,
+          "y": 82
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_liste_des_cartes",
+          "text": "Liste des Cartes",
+          "width": 108,
+          "height": 20,
+          "x": 158,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_indisponible_en",
+          "text": {
+            "fixedValue": "Indisponible en"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 156
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_paiement_physique",
+          "text": {
+            "fixedValue": "Paiement Physique"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 166,
+          "y": 165
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_switch",
+          "text": "Switch",
+          "width": 56,
+          "height": 20,
+          "x": 36,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_passer_en_paiement",
+          "text": {
+            "fixedValue": "Passer en paiement"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 17,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bancaire",
+          "text": {
+            "fixedValue": "Bancaire"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 42,
+          "y": 140
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

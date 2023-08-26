@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "cryptophone_elite_core",
+    "customModelName": "Normal",
+    "name": "Coeur du CryptoPhone Élite",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:BusUtilistiesTab"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Coeur du CryptoPhone Élite",
+      "Fusionnez un CryptoPhone Pro avec ce coeur pour avoir le CryptoPhone Élite"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

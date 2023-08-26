@@ -1,0 +1,201 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_calcule_bloc",
+          "text": {
+            "fixedValue": "Calcule Bloc"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 182,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bienvenue",
+          "text": {
+            "fixedValue": "Bienvenue"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 190,
+          "y": 3
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_0",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB0"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vous_avez",
+          "text": {
+            "fixedValue": "Vous avez :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 327,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_1",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 336,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos",
+          "text": {
+            "fixedValue": "Blokos"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 339,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_valeur_calcule_1",
+          "text": {
+            "fixedValue": "",
+            "name": "ValeurCalcule1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "+"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 199,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_valeur_calcule_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ValeurCalcule2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "="
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 199,
+          "y": 114
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "resultat",
+          "width": 120,
+          "height": 20,
+          "x": 151,
+          "y": 135
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_valider",
+          "text": "Valider",
+          "onClick": {
+            "name": "CalculeBlocAction"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 180,
+          "y": 168
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

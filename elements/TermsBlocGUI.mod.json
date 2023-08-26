@@ -1,0 +1,152 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_terms_bloc",
+          "text": {
+            "fixedValue": "Terms Bloc"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_terminer",
+          "text": "Terminer",
+          "onClick": {
+            "name": "TermsBlocAction"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 176,
+          "y": 142
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "signature",
+          "text": "",
+          "x": 157,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lu_et_approuve",
+          "text": {
+            "fixedValue": "lu et approuvé"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 189,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bienvenue",
+          "text": {
+            "fixedValue": "Bienvenue"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_0",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB0"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vous_avez",
+          "text": {
+            "fixedValue": "Vous avez :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 328,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_1",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 337,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos",
+          "text": {
+            "fixedValue": "Blokos"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 337,
+          "y": 135
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

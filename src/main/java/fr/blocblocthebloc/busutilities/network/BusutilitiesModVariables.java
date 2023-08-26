@@ -73,7 +73,12 @@ public class BusutilitiesModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.Blokos = original.Blokos;
+			clone.TicketLifeTime = original.TicketLifeTime;
+			clone.PaiementBancaireBoutiqueTicketCartes = original.PaiementBancaireBoutiqueTicketCartes;
 			if (!event.isWasDeath()) {
+				clone.Calcule1 = original.Calcule1;
+				clone.Calcule2 = original.Calcule2;
+				clone.CalculeResultat = original.CalculeResultat;
 			}
 		}
 
@@ -254,6 +259,11 @@ public class BusutilitiesModVariables {
 
 	public static class PlayerVariables {
 		public double Blokos = 0;
+		public double Calcule1 = 0;
+		public double Calcule2 = 0;
+		public double CalculeResultat = 0;
+		public String TicketLifeTime = "\"\"";
+		public boolean PaiementBancaireBoutiqueTicketCartes = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -263,12 +273,22 @@ public class BusutilitiesModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("Blokos", Blokos);
+			nbt.putDouble("Calcule1", Calcule1);
+			nbt.putDouble("Calcule2", Calcule2);
+			nbt.putDouble("CalculeResultat", CalculeResultat);
+			nbt.putString("TicketLifeTime", TicketLifeTime);
+			nbt.putBoolean("PaiementBancaireBoutiqueTicketCartes", PaiementBancaireBoutiqueTicketCartes);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			Blokos = nbt.getDouble("Blokos");
+			Calcule1 = nbt.getDouble("Calcule1");
+			Calcule2 = nbt.getDouble("Calcule2");
+			CalculeResultat = nbt.getDouble("CalculeResultat");
+			TicketLifeTime = nbt.getString("TicketLifeTime");
+			PaiementBancaireBoutiqueTicketCartes = nbt.getBoolean("PaiementBancaireBoutiqueTicketCartes");
 		}
 	}
 
@@ -294,6 +314,11 @@ public class BusutilitiesModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.Blokos = message.data.Blokos;
+					variables.Calcule1 = message.data.Calcule1;
+					variables.Calcule2 = message.data.Calcule2;
+					variables.CalculeResultat = message.data.CalculeResultat;
+					variables.TicketLifeTime = message.data.TicketLifeTime;
+					variables.PaiementBancaireBoutiqueTicketCartes = message.data.PaiementBancaireBoutiqueTicketCartes;
 				}
 			});
 			context.setPacketHandled(true);

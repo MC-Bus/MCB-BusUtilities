@@ -8,6 +8,6 @@ public class InfoBAB1Procedure {
 	public static String execute(Entity entity) {
 		if (entity == null)
 			return "";
-		return "" + Math.floor((entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BusutilitiesModVariables.PlayerVariables())).Blokos);
+		return "" + Math.round((entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BusutilitiesModVariables.PlayerVariables())).Blokos);
 	}
 }
