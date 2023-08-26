@@ -2465,6 +2465,186 @@
         ]
       },
       "path": "~/Controle Ticket Bloc/Controle Bloc/Controle Ticket/Controle Carte Essentiel"
+    },
+    {
+      "name": "ControleCarteEssentielR2",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "controle_carte_essentiel_r_2",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/ControleCarteEssentielR2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Controle Ticket Bloc/Controle Bloc/Controle Ticket/Controle Carte Essentiel"
+    },
+    {
+      "name": "ControleCarteEssentielR1",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "controle_carte_essentiel_r_1",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/ControleCarteEssentielR1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Controle Ticket Bloc/Controle Bloc/Controle Ticket/Controle Carte Essentiel"
+    },
+    {
+      "name": "ControleCarteIllimite",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "controle_carte_illimite",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/ControleCarteIllimiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Controle Ticket Bloc/Controle Bloc/Controle Ticket/Controle Carte Infinie"
+    },
+    {
+      "name": "ControlePasTitre",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "controle_pas_titre",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/ControlePasTitreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Controle Ticket Bloc/Controle Bloc/Controle Ticket/Controle Pas Titre"
+    },
+    {
+      "name": "BoutiqueDeTicketEtCartes",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_de_ticket_et_cartes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/blockstates/boutique_de_ticket_et_cartes.json",
+          "src/main/resources/assets/busutilities/models/item/boutique_de_ticket_et_cartes.json",
+          "src/main/resources/assets/busutilities/models/block/boutique_de_ticket_et_cartes.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/BoutiqueDeTicketEtCartesBlock.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre"
+    },
+    {
+      "name": "BoutiqueTicketCartesGUI",
+      "type": "gui",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_cartes_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketCartesGUIScreen.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketCartesGUIMenu.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre"
+    },
+    {
+      "name": "OuvertureBoutiqueTicketCartesGUI",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverture_boutique_ticket_cartes_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketCartesGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions"
+    },
+    {
+      "name": "BoutiqueTicketCartesBankModeGUI",
+      "type": "gui",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_cartes_bank_mode_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketCartesBankModeGUIMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketCartesBankModeGUIScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre"
+    },
+    {
+      "name": "BABBloc",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bab_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/block/BABBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/item/bab_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/bab_bloc.json",
+          "src/main/resources/assets/busutilities/models/block/bab_bloc.json"
+        ]
+      },
+      "path": "~/Blokos Systeme"
     }
   ],
   "variable_elements": [
@@ -2533,12 +2713,19 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "\"\""
+    },
+    {
+      "name": "PaiementBancaireBoutiqueTicketCartes",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_boutique_de_tickets": "Boutique de Tickets",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
       "gui.busutilities.retraits_banque.label_bab": "BAB",
       "block.busutilities.controle_bloc": "Contrôle Bloc",
@@ -2546,14 +2733,19 @@
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
       "item.busutilities.carte_de_transport_illimite": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_calcule_bloc": "Calcule Bloc",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_switch": "Switch",
       "gui.busutilities.crypto_phone_upgrade_gui.label_table_damelioration_de_cryptoph": "Table d\u0027amélioration de CryptoPhone",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_paiement_physique": "Paiement physique",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_passer_en_paiement": "Passer en paiement",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique": "Paiement Bancaire",
       "block.busutilities.calcule_bloc": "Calcule Bloc",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_indisponible_en": "Indisponible en",
       "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
       "block.busutilities.terms_bloc": "Terms Bloc",
       "item.busutilities.ticket_10_voyages_r_1": "Ticket 10 Voyages",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_mode_de_paiement_physique": "Mode de paiement : Bancaire",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_bancaire": "Physique",
       "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
       "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.crypto_phone_max_core": "Coeur du CryptoPhone Max",
@@ -2574,6 +2766,7 @@
       "gui.busutilities.debug_blokos_sys.debug": "",
       "item_group.busutilities.blokos_money_system": "Blokos Système",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_passer_en_paiement": "Passer en paiement",
       "gui.busutilities.depots_banque.label_retraits_de_fonds": "Dépots de fonds",
       "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
       "gui.busutilities.terms_bloc_gui.label_lu_et_approuve": "lu et approuvé",
@@ -2582,6 +2775,7 @@
       "item.busutilities.carte_de_transport_10_voyages_r_6": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.resultat": "",
       "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
       "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
       "item.busutilities.crypto_phone_pro_core": "Coeur du CryptoPhone Pro",
@@ -2595,8 +2789,12 @@
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
       "gui.busutilities.calcule_bloc_gui.label_blokos": "Blokos",
       "block.busutilities.crypto_phone_base_shop": "Boutique Instantané de CryptoPhone Base",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_et_cartes_de_transport": "et Cartes de transport",
       "gui.busutilities.depots_banque.label_bab": "BAB",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_cartes": "Liste des Cartes",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_tickets": "Liste des Tickets",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_boutique_de_tickets": "Boutique de Tickets",
       "item.busutilities.ticket_3_voyages_1_r": "Ticket 3 Voyages",
       "gui.busutilities.banqueablokos.label_banque_a_blokos": "Banque A Blokos",
       "gui.busutilities.retraits_banque.button_retiter_1_blokos": "Retiter 1 Blokos",
@@ -2606,26 +2804,35 @@
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_mini": "Coeur Mini",
       "item.busutilities.crypto_phone_base": "Crypto Phone Base",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_switch": "Switch",
+      "block.busutilities.bab_bloc": "Distributeur de Blokos de la BAB",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.carte_de_transport_10_voyages": "Carte De Transport",
       "item.busutilities.crypto_phone_advence": "Crypto Phone Advence",
       "gui.busutilities.crypto_phone_upgrade_gui.button_ameliorer": "Améliorer",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_et_cartes_de_transport": "et Cartes de transport",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_cartes": "Liste des Cartes",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_advence": "Coeur Advence",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_indisponible_en": "Indisponible en",
       "item.busutilities.ticket_1_voyage": "Ticket 1 Voyage",
       "gui.busutilities.banqueablokos.button_depots": "Dépots",
       "gui.busutilities.retraits_banque.label_retraits_de_fonds": "Retraits de fonds",
       "item.busutilities.ticket_3_voyages_2_r": "Ticket 3 Voyages",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_paiement_physique": "Paiement Physique",
       "gui.busutilities.banqueablokos.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_tickets": "Liste des Tickets",
       "item.busutilities.carte_de_transport_essentiel": "Carte De Transport",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_elite": "Coeur Élite",
       "item.busutilities.crypto_phone_max": "Crypto Phone Max",
       "item.busutilities.blokos": "Blokos",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_bancaire": "Bancaire",
       "gui.busutilities.terms_bloc_gui.button_terminer": "Terminer",
       "gui.busutilities.terms_bloc_gui.label_vous_avez": "Vous avez :",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_max": "Coeur Max",
       "gui.busutilities.depots_banque.button_retiter_1_blokos": "Déposer",
       "item.busutilities.ticket_vierge": "Ticket Vierge",
+      "block.busutilities.boutique_de_ticket_et_cartes": "Boutique de Ticket et Cartes",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
       "item.busutilities.ticket_3_voyages": "Ticket 3 Voyages",
       "gui.busutilities.calcule_bloc_gui.label_vous_avez": "Vous avez :",
@@ -2650,12 +2857,14 @@
       "item.busutilities.carte_de_transport_essentiel_r_3": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_empty": "+",
       "gui.busutilities.banqueablokos.label_nom_joueur": "NOM JOUEUR",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_paiement_physique": "Paiement Physique",
       "block.busutilities.crypto_phone_core_shop": "Boutique de Coeur de CryptoPhone",
       "item_group.busutilities.bus_utilisties_tab": "Bus Utilisties",
       "gui.busutilities.calcule_bloc_gui.button_valider": "Valider"
     },
     "fr_fr": {
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_boutique_de_tickets": "Boutique de Tickets",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
       "gui.busutilities.retraits_banque.label_bab": "BAB",
       "block.busutilities.controle_bloc": "Contrôle Bloc",
@@ -2663,14 +2872,19 @@
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
       "item.busutilities.carte_de_transport_illimite": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_calcule_bloc": "Calcule Bloc",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_switch": "Switch",
       "gui.busutilities.crypto_phone_upgrade_gui.label_table_damelioration_de_cryptoph": "Table d\u0027amélioration de CryptoPhone",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_paiement_physique": "Paiement physique",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_passer_en_paiement": "Passer en paiement",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique": "Paiement Bancaire",
       "block.busutilities.calcule_bloc": "Calcule Bloc",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_indisponible_en": "Indisponible en",
       "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
       "block.busutilities.terms_bloc": "Terms Bloc",
       "item.busutilities.ticket_10_voyages_r_1": "Ticket 10 Voyages",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_bancaire": "Bancaire",
       "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
       "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.crypto_phone_max_core": "Coeur du CryptoPhone Max",
@@ -2691,6 +2905,7 @@
       "gui.busutilities.debug_blokos_sys.debug": "",
       "item_group.busutilities.blokos_money_system": "Blokos Système",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_passer_en_paiement": "Passer en paiement",
       "gui.busutilities.depots_banque.label_retraits_de_fonds": "Dépots de fonds",
       "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
       "gui.busutilities.terms_bloc_gui.label_lu_et_approuve": "lu et approuvé",
@@ -2699,6 +2914,7 @@
       "item.busutilities.carte_de_transport_10_voyages_r_6": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.resultat": "",
       "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
       "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
       "item.busutilities.crypto_phone_pro_core": "Coeur du CryptoPhone Pro",
@@ -2712,8 +2928,12 @@
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
       "gui.busutilities.calcule_bloc_gui.label_blokos": "Blokos",
       "block.busutilities.crypto_phone_base_shop": "Boutique Instantané de CryptoPhone Base",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_et_cartes_de_transport": "et Cartes de transport",
       "gui.busutilities.depots_banque.label_bab": "BAB",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_cartes": "Liste des Cartes",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_tickets": "Liste des Tickets",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_boutique_de_tickets": "Boutique de Tickets",
       "item.busutilities.ticket_3_voyages_1_r": "Ticket 3 Voyages",
       "gui.busutilities.banqueablokos.label_banque_a_blokos": "Banque A Blokos",
       "gui.busutilities.retraits_banque.button_retiter_1_blokos": "Retiter 1 Blokos",
@@ -2723,26 +2943,35 @@
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_mini": "Coeur Mini",
       "item.busutilities.crypto_phone_base": "Crypto Phone Base",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_switch": "Switch",
+      "block.busutilities.bab_bloc": "Distributeur de Blokos de la BAB",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.carte_de_transport_10_voyages": "Carte De Transport",
       "item.busutilities.crypto_phone_advence": "Crypto Phone Advence",
       "gui.busutilities.crypto_phone_upgrade_gui.button_ameliorer": "Améliorer",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_et_cartes_de_transport": "et Cartes de transport",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_cartes": "Liste des Cartes",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_advence": "Coeur Advence",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_indisponible_en": "Indisponible en",
       "item.busutilities.ticket_1_voyage": "Ticket 1 Voyage",
       "gui.busutilities.banqueablokos.button_depots": "Dépots",
       "gui.busutilities.retraits_banque.label_retraits_de_fonds": "Retraits de fonds",
       "item.busutilities.ticket_3_voyages_2_r": "Ticket 3 Voyages",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_paiement_physique": "Paiement Physique",
       "gui.busutilities.banqueablokos.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_tickets": "Liste des Tickets",
       "item.busutilities.carte_de_transport_essentiel": "Carte De Transport",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_elite": "Coeur Élite",
       "item.busutilities.crypto_phone_max": "Crypto Phone Max",
       "item.busutilities.blokos": "Blokos",
+      "gui.busutilities.boutique_ticket_cartes_gui.label_bancaire": "Bancaire",
       "gui.busutilities.terms_bloc_gui.button_terminer": "Terminer",
       "gui.busutilities.terms_bloc_gui.label_vous_avez": "Vous avez :",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_max": "Coeur Max",
       "gui.busutilities.depots_banque.button_retiter_1_blokos": "Déposer",
       "item.busutilities.ticket_vierge": "Ticket Vierge",
+      "block.busutilities.boutique_de_ticket_et_cartes": "Boutique de Ticket et Cartes",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
       "item.busutilities.ticket_3_voyages": "Ticket 3 Voyages",
       "gui.busutilities.calcule_bloc_gui.label_vous_avez": "Vous avez :",
@@ -2767,6 +2996,7 @@
       "item.busutilities.carte_de_transport_essentiel_r_3": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_empty": "+",
       "gui.busutilities.banqueablokos.label_nom_joueur": "NOM JOUEUR",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_paiement_physique": "Paiement Physique",
       "block.busutilities.crypto_phone_core_shop": "Boutique de Coeur de CryptoPhone",
       "item_group.busutilities.bus_utilisties_tab": "Bus Utilisties",
       "gui.busutilities.calcule_bloc_gui.button_valider": "Valider"
@@ -2844,6 +3074,14 @@
                   },
                   {
                     "name": "Controle Carte Essentiel",
+                    "children": []
+                  },
+                  {
+                    "name": "Controle Carte Infinie",
+                    "children": []
+                  },
+                  {
+                    "name": "Controle Pas Titre",
                     "children": []
                   }
                 ]
@@ -2945,6 +3183,15 @@
           {
             "name": "CryptoPhone Base Shop",
             "children": []
+          },
+          {
+            "name": "Boutique de Titre",
+            "children": [
+              {
+                "name": "Actions",
+                "children": []
+              }
+            ]
           }
         ]
       },

@@ -22,6 +22,7 @@ import fr.blocblocthebloc.busutilities.client.gui.CalculeBlocGUIScreen;
 import fr.blocblocthebloc.busutilities.client.gui.BoutiqueTicketCartesGUIScreen;
 import fr.blocblocthebloc.busutilities.client.gui.BoutiqueTicketCartesBankModeGUIScreen;
 import fr.blocblocthebloc.busutilities.client.gui.BanqueablokosScreen;
+import fr.blocblocthebloc.busutilities.client.gui.BABLiteScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BusutilitiesModScreens {
@@ -39,6 +40,7 @@ public class BusutilitiesModScreens {
 			MenuScreens.register(BusutilitiesModMenus.CALCULE_BLOC_GUI.get(), CalculeBlocGUIScreen::new);
 			MenuScreens.register(BusutilitiesModMenus.BOUTIQUE_TICKET_CARTES_GUI.get(), BoutiqueTicketCartesGUIScreen::new);
 			MenuScreens.register(BusutilitiesModMenus.BOUTIQUE_TICKET_CARTES_BANK_MODE_GUI.get(), BoutiqueTicketCartesBankModeGUIScreen::new);
+			MenuScreens.register(BusutilitiesModMenus.BAB_LITE.get(), BABLiteScreen::new);
 		});
 	}
 }

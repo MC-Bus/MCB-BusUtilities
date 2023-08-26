@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "busutilities:block/babautre",
+    "up": "busutilities:block/babautre",
+    "north": "busutilities:block/bab",
+    "east": "busutilities:block/babautre",
+    "south": "busutilities:block/babautre",
+    "west": "busutilities:block/babautre",
+    "particle": "busutilities:block/babautre"
+  },
+  "render_type": "solid"
+}

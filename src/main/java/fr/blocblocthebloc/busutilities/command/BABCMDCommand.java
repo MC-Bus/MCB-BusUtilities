@@ -11,7 +11,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
-import fr.blocblocthebloc.busutilities.procedures.OuvertureBABProcedure;
+import fr.blocblocthebloc.busutilities.procedures.OuvertureBABLiteProcedure;
 
 @Mod.EventBusSubscriber
 public class BABCMDCommand {
@@ -29,7 +29,7 @@ public class BABCMDCommand {
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getDirection();
 
-					OuvertureBABProcedure.execute(world, x, y, z, entity);
+					OuvertureBABLiteProcedure.execute(world, x, y, z, entity);
 					return 0;
 				}));
 	}

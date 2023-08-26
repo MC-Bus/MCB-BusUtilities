@@ -44,6 +44,7 @@ public class BusutilitiesModTabs {
 					tabData.accept(BusutilitiesModBlocks.TERMS_BLOC.get().asItem());
 					tabData.accept(BusutilitiesModBlocks.CALCULE_BLOC.get().asItem());
 					tabData.accept(BusutilitiesModBlocks.BOUTIQUE_DE_TICKET_ET_CARTES.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.BAB_BLOC.get().asItem());
 				})
 
 		);

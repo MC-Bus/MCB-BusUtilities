@@ -22,6 +22,7 @@ import fr.blocblocthebloc.busutilities.world.inventory.CalculeBlocGUIMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCartesGUIMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCartesBankModeGUIMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.BanqueablokosMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BABLiteMenu;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
 public class BusutilitiesModMenus {
@@ -38,4 +39,5 @@ public class BusutilitiesModMenus {
 	public static final RegistryObject<MenuType<BoutiqueTicketCartesGUIMenu>> BOUTIQUE_TICKET_CARTES_GUI = REGISTRY.register("boutique_ticket_cartes_gui", () -> IForgeMenuType.create(BoutiqueTicketCartesGUIMenu::new));
 	public static final RegistryObject<MenuType<BoutiqueTicketCartesBankModeGUIMenu>> BOUTIQUE_TICKET_CARTES_BANK_MODE_GUI = REGISTRY.register("boutique_ticket_cartes_bank_mode_gui",
 			() -> IForgeMenuType.create(BoutiqueTicketCartesBankModeGUIMenu::new));
+	public static final RegistryObject<MenuType<BABLiteMenu>> BAB_LITE = REGISTRY.register("bab_lite", () -> IForgeMenuType.create(BABLiteMenu::new));
 }

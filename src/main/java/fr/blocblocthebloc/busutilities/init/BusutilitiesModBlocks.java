@@ -17,6 +17,7 @@ import fr.blocblocthebloc.busutilities.block.CryptoPhoneBaseShopBlock;
 import fr.blocblocthebloc.busutilities.block.ControleBlocBlock;
 import fr.blocblocthebloc.busutilities.block.CalculeBlocBlock;
 import fr.blocblocthebloc.busutilities.block.BoutiqueDeTicketEtCartesBlock;
+import fr.blocblocthebloc.busutilities.block.BABBlocBlock;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
 public class BusutilitiesModBlocks {
@@ -28,4 +29,5 @@ public class BusutilitiesModBlocks {
 	public static final RegistryObject<Block> CALCULE_BLOC = REGISTRY.register("calcule_bloc", () -> new CalculeBlocBlock());
 	public static final RegistryObject<Block> CONTROLE_BLOC = REGISTRY.register("controle_bloc", () -> new ControleBlocBlock());
 	public static final RegistryObject<Block> BOUTIQUE_DE_TICKET_ET_CARTES = REGISTRY.register("boutique_de_ticket_et_cartes", () -> new BoutiqueDeTicketEtCartesBlock());
+	public static final RegistryObject<Block> BAB_BLOC = REGISTRY.register("bab_bloc", () -> new BABBlocBlock());
 }

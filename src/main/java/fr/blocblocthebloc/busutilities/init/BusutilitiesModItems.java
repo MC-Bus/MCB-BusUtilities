@@ -111,6 +111,7 @@ public class BusutilitiesModItems {
 	public static final RegistryObject<Item> CARTE_DE_TRANSPORT_ESSENTIEL_R_1 = REGISTRY.register("carte_de_transport_essentiel_r_1", () -> new CarteDeTransportEssentielR1Item());
 	public static final RegistryObject<Item> CARTE_DE_TRANSPORT_ILLIMITE = REGISTRY.register("carte_de_transport_illimite", () -> new CarteDeTransportIllimiteItem());
 	public static final RegistryObject<Item> BOUTIQUE_DE_TICKET_ET_CARTES = block(BusutilitiesModBlocks.BOUTIQUE_DE_TICKET_ET_CARTES);
+	public static final RegistryObject<Item> BAB_BLOC = block(BusutilitiesModBlocks.BAB_BLOC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
