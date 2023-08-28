@@ -75,6 +75,10 @@ public class BusutilitiesModVariables {
 			clone.Blokos = original.Blokos;
 			clone.TicketLifeTime = original.TicketLifeTime;
 			clone.PaiementBancaireBoutiqueTicketCartes = original.PaiementBancaireBoutiqueTicketCartes;
+			clone.SortieBlokosMontant = original.SortieBlokosMontant;
+			clone.SortieBlokosNom = original.SortieBlokosNom;
+			clone.EntreBlokosMontant = original.EntreBlokosMontant;
+			clone.EntreBlokosNom = original.EntreBlokosNom;
 			if (!event.isWasDeath()) {
 				clone.Calcule1 = original.Calcule1;
 				clone.Calcule2 = original.Calcule2;
@@ -264,6 +268,10 @@ public class BusutilitiesModVariables {
 		public double CalculeResultat = 0;
 		public String TicketLifeTime = "\"\"";
 		public boolean PaiementBancaireBoutiqueTicketCartes = false;
+		public double SortieBlokosMontant = 0;
+		public String SortieBlokosNom = "\"\"";
+		public double EntreBlokosMontant = 0;
+		public String EntreBlokosNom = "\"\"";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -278,6 +286,10 @@ public class BusutilitiesModVariables {
 			nbt.putDouble("CalculeResultat", CalculeResultat);
 			nbt.putString("TicketLifeTime", TicketLifeTime);
 			nbt.putBoolean("PaiementBancaireBoutiqueTicketCartes", PaiementBancaireBoutiqueTicketCartes);
+			nbt.putDouble("SortieBlokosMontant", SortieBlokosMontant);
+			nbt.putString("SortieBlokosNom", SortieBlokosNom);
+			nbt.putDouble("EntreBlokosMontant", EntreBlokosMontant);
+			nbt.putString("EntreBlokosNom", EntreBlokosNom);
 			return nbt;
 		}
 
@@ -289,6 +301,10 @@ public class BusutilitiesModVariables {
 			CalculeResultat = nbt.getDouble("CalculeResultat");
 			TicketLifeTime = nbt.getString("TicketLifeTime");
 			PaiementBancaireBoutiqueTicketCartes = nbt.getBoolean("PaiementBancaireBoutiqueTicketCartes");
+			SortieBlokosMontant = nbt.getDouble("SortieBlokosMontant");
+			SortieBlokosNom = nbt.getString("SortieBlokosNom");
+			EntreBlokosMontant = nbt.getDouble("EntreBlokosMontant");
+			EntreBlokosNom = nbt.getString("EntreBlokosNom");
 		}
 	}
 
@@ -319,6 +335,10 @@ public class BusutilitiesModVariables {
 					variables.CalculeResultat = message.data.CalculeResultat;
 					variables.TicketLifeTime = message.data.TicketLifeTime;
 					variables.PaiementBancaireBoutiqueTicketCartes = message.data.PaiementBancaireBoutiqueTicketCartes;
+					variables.SortieBlokosMontant = message.data.SortieBlokosMontant;
+					variables.SortieBlokosNom = message.data.SortieBlokosNom;
+					variables.EntreBlokosMontant = message.data.EntreBlokosMontant;
+					variables.EntreBlokosNom = message.data.EntreBlokosNom;
 				}
 			});
 			context.setPacketHandled(true);

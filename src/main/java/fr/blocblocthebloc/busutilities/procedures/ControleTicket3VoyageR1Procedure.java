@@ -36,7 +36,7 @@ public class ControleTicket3VoyageR1Procedure {
 				});
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Contr\u00F4le Bloc] : Ticket 3 Voyage Valide - 0 Voyage Restant"), true);
+				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Ticket 3 Voyage Valide - 0 Voyage Restant"), true);
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == BusutilitiesModItems.TICKET_3_VOYAGES_1_R.get()) {
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(BusutilitiesModItems.TICKET_VIERGE.get());
@@ -56,7 +56,7 @@ public class ControleTicket3VoyageR1Procedure {
 				});
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Contr\u00F4le Bloc] : Ticket 3 Voyage Valide - 0 Voyage Restant"), true);
+				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Ticket 3 Voyage Valide - 0 Voyage Restant"), true);
 		} else {
 			ControleTicket10VoyageProcedure.execute(entity);
 		}

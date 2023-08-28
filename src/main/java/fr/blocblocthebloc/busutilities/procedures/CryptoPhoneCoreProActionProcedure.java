@@ -31,8 +31,21 @@ public class CryptoPhoneCoreProActionProcedure {
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Boutique] : Achat Termin\u00E9"), false);
+			{
+				double _setval = 64;
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.SortieBlokosMontant = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			{
+				String _setval = "CRYPTOPHONECORESHOP";
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.SortieBlokosNom = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			SortieBlokosProcedure.execute(entity);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("[Boutique] : Vous n'avez pas assez de fonds"), false);

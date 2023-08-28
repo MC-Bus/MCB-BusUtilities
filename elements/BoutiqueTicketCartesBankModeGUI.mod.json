@@ -82,6 +82,9 @@
         "data": {
           "name": "button_switch",
           "text": "Switch",
+          "onClick": {
+            "name": "OuvertureBoutiqueTicketCartesPhy"
+          },
           "width": 56,
           "height": 20,
           "x": 36,

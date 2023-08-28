@@ -18,7 +18,7 @@ public class TicketViergeItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Ticket Vierge"));
+		list.add(Component.literal("Ticket \u00A7cVierge\u00A7r"));
 		list.add(Component.literal("A donner dans un recycleur de tiecket \u00E0 la gare !"));
 	}
 }

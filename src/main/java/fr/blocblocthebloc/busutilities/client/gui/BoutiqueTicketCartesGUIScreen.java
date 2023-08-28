@@ -11,6 +11,8 @@ import net.minecraft.client.gui.components.Button;
 import java.util.HashMap;
 
 import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCartesGUIMenu;
+import fr.blocblocthebloc.busutilities.network.BoutiqueTicketCartesGUIButtonMessage;
+import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -96,6 +98,10 @@ public class BoutiqueTicketCartesGUIScreen extends AbstractContainerScreen<Bouti
 		guistate.put("button:button_liste_des_cartes", button_liste_des_cartes);
 		this.addRenderableWidget(button_liste_des_cartes);
 		button_switch = Button.builder(Component.translatable("gui.busutilities.boutique_ticket_cartes_gui.button_switch"), e -> {
+			if (true) {
+				BusutilitiesMod.PACKET_HANDLER.sendToServer(new BoutiqueTicketCartesGUIButtonMessage(2, x, y, z));
+				BoutiqueTicketCartesGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
 		}).bounds(this.leftPos + -89, this.topPos + 121, 56, 20).build();
 		guistate.put("button:button_switch", button_switch);
 		this.addRenderableWidget(button_switch);

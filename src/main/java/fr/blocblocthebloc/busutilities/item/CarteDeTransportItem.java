@@ -19,7 +19,7 @@ public class CarteDeTransportItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Carte de transport nominative"));
-		list.add(Component.literal("Contenue de la carte : Vide"));
+		list.add(Component.literal("Contenue de la carte : \u00A7cVide\u00A7r"));
 		list.add(Component.literal("Rechargez la \u00E0 la gare !"));
 	}
 }

@@ -36,7 +36,7 @@ public class ControleCarteEssentielR1Procedure {
 				});
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Contr\u00F4le Bloc] : Carte Essentiel Valide - 0 Voyage Restant"), true);
+				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Carte Essentiel Valide - 0 Voyage Restant"), true);
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == BusutilitiesModItems.CARTE_DE_TRANSPORT_ESSENTIEL_R_1.get()) {
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(BusutilitiesModItems.CARTE_DE_TRANSPORT.get());
@@ -56,7 +56,7 @@ public class ControleCarteEssentielR1Procedure {
 				});
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Contr\u00F4le Bloc] : Carte Essentiel Valide - 0 Voyage Restant"), true);
+				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Carte Essentiel Valide - 0 Voyage Restant"), true);
 		} else {
 			ControleCarteIllimiteProcedure.execute(entity);
 		}

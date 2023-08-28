@@ -49,8 +49,21 @@ public class TermsBlocActionProcedure {
 					}, _bpos);
 				}
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[BAB] : Vous venez de re\u00E7evoir 3 Blokos de MCB-TERMSBLOC"), false);
+			{
+				double _setval = 3;
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.EntreBlokosMontant = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			{
+				String _setval = "TERMSBLOC";
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.EntreBlokosNom = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			EntreBlokosProcedure.execute(entity);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("[TermsBloc] : Vous n'avez pas lu et approuv\u00E9"), false);

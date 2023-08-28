@@ -28,6 +28,6 @@ public class CarteDeTransport10VoyagesR8Item extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Carte de transport nominative"));
-		list.add(Component.literal("Contenue de la carte : 8 Voyages sur 10"));
+		list.add(Component.literal("Contenue de la carte : \u00A7a8\u00A7r Voyages sur \u00A7510\u00A7r"));
 	}
 }

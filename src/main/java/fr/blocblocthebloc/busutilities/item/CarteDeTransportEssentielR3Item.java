@@ -28,7 +28,7 @@ public class CarteDeTransportEssentielR3Item extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Carte de transport nominative"));
-		list.add(Component.literal("Contenue de la carte : Essentiel (3 Voyages Restant sur 5 Voyages)"));
+		list.add(Component.literal("Contenue de la carte : Essentiel (\u00A7e3\u00A7r Voyages Restant sur \u00A755\u00A7r Voyages)"));
 		list.add(Component.literal("Pensez \u00E0 la recharg\u00E9 \u00E0 la gare !"));
 	}
 }

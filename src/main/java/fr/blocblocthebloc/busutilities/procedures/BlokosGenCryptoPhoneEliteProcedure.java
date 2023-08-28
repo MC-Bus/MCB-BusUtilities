@@ -48,8 +48,21 @@ public class BlokosGenCryptoPhoneEliteProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(Component.literal("[CryptoPhone] : 2 Blokos \u00E0 \u00E9t\u00E9 ajout\u00E9 \u00E0 votre compte bancaire"), true);
+				{
+					double _setval = 2;
+					entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.EntreBlokosMontant = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					String _setval = "CRYPTOPHONE\u00C9LITE";
+					entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.EntreBlokosNom = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				EntreBlokosProcedure.execute(entity);
 			}
 		}
 	}

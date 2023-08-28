@@ -28,6 +28,6 @@ public class Ticket3Voyages1RItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Utilisable sur tout le r\u00E9seau MCB"));
-		list.add(Component.literal("1 Voyage Restant sur 3 Voyage"));
+		list.add(Component.literal("\u00A7c1\u00A7r Voyage Restant sur \u00A753\u00A7r Voyages"));
 	}
 }

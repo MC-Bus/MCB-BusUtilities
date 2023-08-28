@@ -26,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "Utilisable sur tout le réseau MCB",
-      "6 Voyage Restant sur 10 Voyage"
+      "§a6§r Voyages Restant sur §510§r Voyages"
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

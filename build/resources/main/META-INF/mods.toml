@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[45,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="busutilities"
 version="1.0.0"
 displayName="NewBusUtilities"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Nathan, MCreator"
+credits="Principal mod du Projet MCB"
+displayURL="https://github.io/MC-Bus/MCB-BusUtilities"
+authors="BlocBlocTheBloc"
 
 [[dependencies.busutilities]]
     modId="minecraft"

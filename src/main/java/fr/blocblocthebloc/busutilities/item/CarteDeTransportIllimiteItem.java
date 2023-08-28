@@ -29,5 +29,6 @@ public class CarteDeTransportIllimiteItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Carte de transport nominative"));
 		list.add(Component.literal("Contenue de la carte : Illimit\u00E9"));
+		list.add(Component.literal("\u00A71\u00A7kX\u00A7r Voyages restant sur \u00A71\u00A7kX\u00A7r"));
 	}
 }

@@ -27,8 +27,21 @@ public class CryptoPhoneBaseShopActionProcedure {
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[Boutique Instantat\u00E9] : Achat effectu\u00E9"), false);
+			{
+				double _setval = 4;
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.SortieBlokosMontant = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			{
+				String _setval = "CRYPTOPHONEBASEINTSHOP";
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.SortieBlokosNom = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			SortieBlokosProcedure.execute(entity);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("[Boutique Instantat\u00E9] : Vous n'avez pas assez de fonds"), false);

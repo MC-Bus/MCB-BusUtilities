@@ -34,8 +34,21 @@ public class CalculeBlocActionProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("[BAB] : Vous avez re\u00E7u 5 Blokos de MCB-CALCULEBLOC"), false);
+			{
+				double _setval = 5;
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.EntreBlokosMontant = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			{
+				String _setval = "CALCULEBLOC";
+				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.EntreBlokosNom = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			EntreBlokosProcedure.execute(entity);
 			CalculeBlocGUIOuvertureProcedure.execute(world, x, y, z, entity);
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
