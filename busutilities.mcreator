@@ -3,7 +3,7 @@
     {
       "name": "Blokos",
       "type": "item",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos",
@@ -18,7 +18,7 @@
     {
       "name": "Banqueablokos",
       "type": "gui",
-      "sortid": 23,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "banqueablokos",
@@ -34,7 +34,7 @@
     {
       "name": "InfoBAB0",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "info_bab_0",
@@ -55,7 +55,7 @@
     {
       "name": "InfoBAB1",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "info_bab_1",
@@ -76,7 +76,7 @@
     {
       "name": "OuvertureBAB",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_bab",
@@ -112,7 +112,7 @@
     {
       "name": "BABCMD",
       "type": "command",
-      "sortid": 27,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "babcmd",
@@ -126,7 +126,7 @@
     {
       "name": "BusUtilitiesCreatifTab",
       "type": "tab",
-      "sortid": 28,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bus_utilities_creatif_tab",
@@ -137,7 +137,7 @@
     {
       "name": "RetraitsBanque",
       "type": "gui",
-      "sortid": 29,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retraits_banque",
@@ -153,7 +153,7 @@
     {
       "name": "OuvertureRetraitsBAB",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_retraits_bab",
@@ -189,7 +189,7 @@
     {
       "name": "ActionRetraitBAB",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "action_retrait_bab",
@@ -209,7 +209,7 @@
     {
       "name": "DepotsBanque",
       "type": "gui",
-      "sortid": 32,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "depots_banque",
@@ -225,7 +225,7 @@
     {
       "name": "OuvertureDepotBAB",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_depot_bab",
@@ -261,7 +261,7 @@
     {
       "name": "ActionDepotBAB",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "action_depot_bab",
@@ -281,7 +281,7 @@
     {
       "name": "CryptoPhoneBase",
       "type": "item",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_base",
@@ -296,7 +296,7 @@
     {
       "name": "BlokosGenCryptoPhoneBase",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_base",
@@ -324,7 +324,7 @@
     {
       "name": "CryptoPhoneMini",
       "type": "item",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_mini",
@@ -339,7 +339,7 @@
     {
       "name": "BlokosGenCryptoPhoneMini",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_mini",
@@ -367,7 +367,7 @@
     {
       "name": "CryptoPhoneAdvence",
       "type": "item",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_advence",
@@ -382,7 +382,7 @@
     {
       "name": "BlokosGenCryptoPhoneAdvence",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_advence",
@@ -410,7 +410,7 @@
     {
       "name": "CryptoPhoneMax",
       "type": "item",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_max",
@@ -425,7 +425,7 @@
     {
       "name": "BlokosGenCryptoPhoneMax",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_max",
@@ -453,7 +453,7 @@
     {
       "name": "CryptoPhonePro",
       "type": "item",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_pro",
@@ -468,7 +468,7 @@
     {
       "name": "BlokosGenCryptoPhonePro",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_pro",
@@ -496,7 +496,7 @@
     {
       "name": "CryptoPhoneElite",
       "type": "item",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_elite",
@@ -511,7 +511,7 @@
     {
       "name": "BlokosGenCryptoPhoneElite",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_gen_crypto_phone_elite",
@@ -556,7 +556,7 @@
     {
       "name": "CryptoPhoneUpgradeGUI",
       "type": "gui",
-      "sortid": 41,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_upgrade_gui",
@@ -572,7 +572,7 @@
     {
       "name": "CryptoPhoneUpgradeTableOuverture",
       "type": "procedure",
-      "sortid": 42,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_upgrade_table_ouverture",
@@ -608,7 +608,7 @@
     {
       "name": "CryptoPhoneUpgradeAction",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_upgrade_action",
@@ -703,7 +703,7 @@
     {
       "name": "CryptoPhoneCoreShop",
       "type": "block",
-      "sortid": 14,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_shop",
@@ -720,7 +720,7 @@
     {
       "name": "CryptoPhoneCoreShopPhysiqueGUI",
       "type": "gui",
-      "sortid": 44,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_shop_physique_gui",
@@ -736,7 +736,7 @@
     {
       "name": "CryptoPhoneCoreShopOuverture",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_shop_ouverture",
@@ -772,7 +772,7 @@
     {
       "name": "CryptoPhoneCoreMiniActionShop",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_mini_action_shop",
@@ -792,7 +792,7 @@
     {
       "name": "CryptoPhoneCoreAdvenceActionShop",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_advence_action_shop",
@@ -812,7 +812,7 @@
     {
       "name": "CryptoPhoneCoreMaxActionShop",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_max_action_shop",
@@ -832,7 +832,7 @@
     {
       "name": "CryptoPhoneCoreProActionShop",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_pro_action_shop",
@@ -852,7 +852,7 @@
     {
       "name": "CryptoPhoneCoreEliteActionShop",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_elite_action_shop",
@@ -872,7 +872,7 @@
     {
       "name": "CryptoPhoneCoreShopBanqueGUI",
       "type": "gui",
-      "sortid": 51,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_shop_banque_gui",
@@ -888,7 +888,7 @@
     {
       "name": "CryptoPhoneCoreMiniAction",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_mini_action",
@@ -908,7 +908,7 @@
     {
       "name": "CryptoPhoneCoreAdvenceAction",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_advence_action",
@@ -928,7 +928,7 @@
     {
       "name": "CryptoPhoneCoreMaxAction",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_max_action",
@@ -948,7 +948,7 @@
     {
       "name": "CryptoPhoneCoreProAction",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_pro_action",
@@ -968,7 +968,7 @@
     {
       "name": "CryptoPhoneCoreEliteAction",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_core_elite_action",
@@ -988,7 +988,7 @@
     {
       "name": "CryptoPhoneBaseShop",
       "type": "block",
-      "sortid": 15,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_base_shop",
@@ -1005,7 +1005,7 @@
     {
       "name": "CryptoPhoneBaseShopAction",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crypto_phone_base_shop_action",
@@ -1025,7 +1025,7 @@
     {
       "name": "DebugBlokosSys",
       "type": "gui",
-      "sortid": 58,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_blokos_sys",
@@ -1041,7 +1041,7 @@
     {
       "name": "OuvertureDebug",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_debug",
@@ -1077,7 +1077,7 @@
     {
       "name": "DebugBlokosSyscmd",
       "type": "command",
-      "sortid": 60,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_blokos_syscmd",
@@ -1091,7 +1091,7 @@
     {
       "name": "DebugBlokosSysSet",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_blokos_sys_set",
@@ -1115,7 +1115,7 @@
     {
       "name": "TermsBloc",
       "type": "block",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terms_bloc",
@@ -1132,7 +1132,7 @@
     {
       "name": "TermsBlocGUI",
       "type": "gui",
-      "sortid": 62,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terms_bloc_gui",
@@ -1148,7 +1148,7 @@
     {
       "name": "TermsBlocGUIOuverture",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terms_bloc_gui_ouverture",
@@ -1184,7 +1184,7 @@
     {
       "name": "TermsBlocAction",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terms_bloc_action",
@@ -1224,7 +1224,7 @@
     {
       "name": "CalculeBloc",
       "type": "block",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcule_bloc",
@@ -1241,7 +1241,7 @@
     {
       "name": "CalculeBlocGUI",
       "type": "gui",
-      "sortid": 65,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcule_bloc_gui",
@@ -1257,7 +1257,7 @@
     {
       "name": "CalculeBlocGUIOuverture",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcule_bloc_gui_ouverture",
@@ -1293,7 +1293,7 @@
     {
       "name": "ValeurCalcule1",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "valeur_calcule_1",
@@ -1314,7 +1314,7 @@
     {
       "name": "ValeurCalcule2",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "valeur_calcule_2",
@@ -1335,7 +1335,7 @@
     {
       "name": "CalculeBlocAction",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calcule_bloc_action",
@@ -1375,7 +1375,7 @@
     {
       "name": "ControleBloc",
       "type": "block",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_bloc",
@@ -1392,7 +1392,7 @@
     {
       "name": "Ticket1Voyage",
       "type": "item",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_1_voyage",
@@ -1407,7 +1407,7 @@
     {
       "name": "TicketLifeTime",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_life_time",
@@ -1427,7 +1427,7 @@
     {
       "name": "Ticket",
       "type": "command",
-      "sortid": 71,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket",
@@ -1441,7 +1441,7 @@
     {
       "name": "TicketVierge",
       "type": "item",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_vierge",
@@ -1456,7 +1456,7 @@
     {
       "name": "Ticket3Voyages",
       "type": "item",
-      "sortid": 21,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_3_voyages",
@@ -1471,7 +1471,7 @@
     {
       "name": "Ticket3Voyages2R",
       "type": "item",
-      "sortid": 72,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_3_voyages_2_r",
@@ -1486,7 +1486,7 @@
     {
       "name": "Ticket3Voyages1R",
       "type": "item",
-      "sortid": 73,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_3_voyages_1_r",
@@ -1501,7 +1501,7 @@
     {
       "name": "Ticket10Voyages",
       "type": "item",
-      "sortid": 22,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages",
@@ -1516,7 +1516,7 @@
     {
       "name": "Ticket10VoyagesR9",
       "type": "item",
-      "sortid": 74,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_9",
@@ -1531,7 +1531,7 @@
     {
       "name": "Ticket10VoyagesR8",
       "type": "item",
-      "sortid": 75,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_8",
@@ -1546,7 +1546,7 @@
     {
       "name": "Ticket10VoyagesR7",
       "type": "item",
-      "sortid": 76,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_7",
@@ -1561,7 +1561,7 @@
     {
       "name": "Ticket10VoyagesR6",
       "type": "item",
-      "sortid": 77,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_6",
@@ -1576,7 +1576,7 @@
     {
       "name": "Ticket10VoyagesR5",
       "type": "item",
-      "sortid": 78,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_5",
@@ -1591,7 +1591,7 @@
     {
       "name": "Ticket10VoyagesR4",
       "type": "item",
-      "sortid": 79,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_4",
@@ -1606,7 +1606,7 @@
     {
       "name": "Ticket10VoyagesR3",
       "type": "item",
-      "sortid": 80,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_3",
@@ -1621,7 +1621,7 @@
     {
       "name": "Ticket10VoyagesR2",
       "type": "item",
-      "sortid": 81,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_2",
@@ -1636,7 +1636,7 @@
     {
       "name": "Ticket10VoyagesR1",
       "type": "item",
-      "sortid": 82,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ticket_10_voyages_r_1",
@@ -1651,7 +1651,7 @@
     {
       "name": "ControleTicket1Voyage",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_1_voyage",
@@ -1671,7 +1671,7 @@
     {
       "name": "ControleTicket3Voyages",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_3_voyages",
@@ -1691,7 +1691,7 @@
     {
       "name": "ControleTicket3VoyagesR2",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_3_voyages_r_2",
@@ -1711,7 +1711,7 @@
     {
       "name": "ControleTicket3VoyageR1",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_3_voyage_r_1",
@@ -1731,7 +1731,7 @@
     {
       "name": "BlokosMoneySystem",
       "type": "tab",
-      "sortid": 87,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokos_money_system",
@@ -1743,7 +1743,7 @@
     {
       "name": "BusUtilistiesTab",
       "type": "tab",
-      "sortid": 88,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bus_utilisties_tab",
@@ -1754,7 +1754,7 @@
     {
       "name": "ControleTicket10Voyage",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyage",
@@ -1774,7 +1774,7 @@
     {
       "name": "ControleTicket10VoyagesR9",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_9",
@@ -1794,7 +1794,7 @@
     {
       "name": "ControleTicket10VoyagesR8",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_8",
@@ -1814,7 +1814,7 @@
     {
       "name": "ControleTicket10VoyagesR7",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_7",
@@ -1834,7 +1834,7 @@
     {
       "name": "ControleTicket10VoyagesR6",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_6",
@@ -1854,7 +1854,7 @@
     {
       "name": "ControleTicket10VoyagesR5",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_5",
@@ -1874,7 +1874,7 @@
     {
       "name": "ControleTicket10VoyagesR4",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_4",
@@ -1894,7 +1894,7 @@
     {
       "name": "ControleTicket10VoyagesR3",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_3",
@@ -1914,7 +1914,7 @@
     {
       "name": "ControleTicket10VoyagesR2",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_2",
@@ -1934,7 +1934,7 @@
     {
       "name": "ControleTicket10VoyagesR1",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_ticket_10_voyages_r_1",
@@ -1954,7 +1954,7 @@
     {
       "name": "CarteDeTransport",
       "type": "item",
-      "sortid": 99,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport",
@@ -1969,7 +1969,7 @@
     {
       "name": "CarteDeTransport10Voyages",
       "type": "item",
-      "sortid": 100,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages",
@@ -1984,7 +1984,7 @@
     {
       "name": "CarteDeTransport10VoyagesR9",
       "type": "item",
-      "sortid": 101,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_9",
@@ -1999,7 +1999,7 @@
     {
       "name": "CarteDeTransport10VoyagesR8",
       "type": "item",
-      "sortid": 102,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_8",
@@ -2014,7 +2014,7 @@
     {
       "name": "CarteDeTransport10VoyagesR7",
       "type": "item",
-      "sortid": 103,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_7",
@@ -2029,7 +2029,7 @@
     {
       "name": "CarteDeTransport10VoyagesR6",
       "type": "item",
-      "sortid": 104,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_6",
@@ -2044,7 +2044,7 @@
     {
       "name": "CarteDeTransport10VoyagesR5",
       "type": "item",
-      "sortid": 105,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_5",
@@ -2059,7 +2059,7 @@
     {
       "name": "CarteDeTransport10VoyagesR4",
       "type": "item",
-      "sortid": 106,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_4",
@@ -2074,7 +2074,7 @@
     {
       "name": "CarteDeTransport10VoyagesR3",
       "type": "item",
-      "sortid": 107,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_3",
@@ -2089,7 +2089,7 @@
     {
       "name": "CarteDeTransport10VoyagesR2",
       "type": "item",
-      "sortid": 108,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_2",
@@ -2104,7 +2104,7 @@
     {
       "name": "CarteDeTransport10VoyagesR1",
       "type": "item",
-      "sortid": 109,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_10_voyages_r_1",
@@ -2119,7 +2119,7 @@
     {
       "name": "CarteDeTransportEssentiel",
       "type": "item",
-      "sortid": 110,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_essentiel",
@@ -2134,7 +2134,7 @@
     {
       "name": "CarteDeTransportEssentielR4",
       "type": "item",
-      "sortid": 111,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_essentiel_r_4",
@@ -2149,7 +2149,7 @@
     {
       "name": "CarteDeTransportEssentielR3",
       "type": "item",
-      "sortid": 112,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_essentiel_r_3",
@@ -2164,7 +2164,7 @@
     {
       "name": "CarteDeTransportEssentielR2",
       "type": "item",
-      "sortid": 113,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_essentiel_r_2",
@@ -2179,7 +2179,7 @@
     {
       "name": "CarteDeTransportEssentielR1",
       "type": "item",
-      "sortid": 114,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_essentiel_r_1",
@@ -2194,7 +2194,7 @@
     {
       "name": "CarteDeTransportIllimite",
       "type": "item",
-      "sortid": 115,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carte_de_transport_illimite",
@@ -2209,7 +2209,7 @@
     {
       "name": "ControleCarte10Voyages",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages",
@@ -2229,7 +2229,7 @@
     {
       "name": "ControleCarte10VoyagesR9",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_9",
@@ -2249,7 +2249,7 @@
     {
       "name": "ControleCarte10VoyagesR8",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_8",
@@ -2269,7 +2269,7 @@
     {
       "name": "ControleCarte10VoyagesR7",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_7",
@@ -2289,7 +2289,7 @@
     {
       "name": "ControleCarte10VoyagesR6",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_6",
@@ -2309,7 +2309,7 @@
     {
       "name": "ControleCarte10VoyagesR5",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_5",
@@ -2329,7 +2329,7 @@
     {
       "name": "ControleCarte10VoyagesR4",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_4",
@@ -2349,7 +2349,7 @@
     {
       "name": "ControleCarte10VoyagesR3",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_3",
@@ -2369,7 +2369,7 @@
     {
       "name": "ControleCarte10VoyagesR2",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_2",
@@ -2389,7 +2389,7 @@
     {
       "name": "ControleCarte10VoyagesR1",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_10_voyages_r_1",
@@ -2409,7 +2409,7 @@
     {
       "name": "ControleCarteEssentiel",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_essentiel",
@@ -2429,7 +2429,7 @@
     {
       "name": "ControleCarteEssentielR4",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_essentiel_r_4",
@@ -2449,7 +2449,7 @@
     {
       "name": "ControleCarteEssentielR3",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_essentiel_r_3",
@@ -2469,7 +2469,7 @@
     {
       "name": "ControleCarteEssentielR2",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_essentiel_r_2",
@@ -2489,7 +2489,7 @@
     {
       "name": "ControleCarteEssentielR1",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_essentiel_r_1",
@@ -2509,7 +2509,7 @@
     {
       "name": "ControleCarteIllimite",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_carte_illimite",
@@ -2529,7 +2529,7 @@
     {
       "name": "ControlePasTitre",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controle_pas_titre",
@@ -2549,7 +2549,7 @@
     {
       "name": "BoutiqueDeTicketEtCartes",
       "type": "block",
-      "sortid": 133,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_de_ticket_et_cartes",
@@ -2566,7 +2566,7 @@
     {
       "name": "BABBloc",
       "type": "block",
-      "sortid": 137,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bab_bloc",
@@ -2583,7 +2583,7 @@
     {
       "name": "BABLite",
       "type": "gui",
-      "sortid": 138,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bab_lite",
@@ -2598,7 +2598,7 @@
     {
       "name": "OuvertureBABLite",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_bab_lite",
@@ -2634,7 +2634,7 @@
     {
       "name": "SortieBlokos",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sortie_blokos",
@@ -2654,7 +2654,7 @@
     {
       "name": "EntreBlokos",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entre_blokos",
@@ -2674,7 +2674,7 @@
     {
       "name": "BoutiqueTicketCarteSelectPhy",
       "type": "gui",
-      "sortid": 142,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_carte_select_phy",
@@ -2690,7 +2690,7 @@
     {
       "name": "Boutiqueticketcarteselectbank",
       "type": "gui",
-      "sortid": 143,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutiqueticketcarteselectbank",
@@ -2706,7 +2706,7 @@
     {
       "name": "BoutiqueTicketPhy",
       "type": "gui",
-      "sortid": 144,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_phy",
@@ -2722,7 +2722,7 @@
     {
       "name": "BoutiqueTicketBank",
       "type": "gui",
-      "sortid": 145,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_bank",
@@ -2738,7 +2738,7 @@
     {
       "name": "BoutiqueCartes",
       "type": "gui",
-      "sortid": 146,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_cartes",
@@ -2754,7 +2754,7 @@
     {
       "name": "OuvertureBoutiqueTicketCartes",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_boutique_ticket_cartes",
@@ -2790,7 +2790,7 @@
     {
       "name": "OuvertureBoutiqueTicketPhy",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_boutique_ticket_phy",
@@ -2826,7 +2826,7 @@
     {
       "name": "BoutiqueTicketVente1V",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_1_v",
@@ -2846,7 +2846,7 @@
     {
       "name": "BoutiqueTicketVente3V",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_3_v",
@@ -2866,7 +2866,7 @@
     {
       "name": "BoutiqueTicketVente10V",
       "type": "procedure",
-      "sortid": 151,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_10_v",
@@ -2886,7 +2886,7 @@
     {
       "name": "BoutiqueTicketVente1VBank",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_1_v_bank",
@@ -2906,7 +2906,7 @@
     {
       "name": "BoutiqueTicketVente3VBank",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_3_v_bank",
@@ -2926,7 +2926,7 @@
     {
       "name": "BoutiqueTicketVente10VBank",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_ticket_vente_10_v_bank",
@@ -2946,7 +2946,7 @@
     {
       "name": "BoutiqueCarteVente10V",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_vente_10_v",
@@ -2966,7 +2966,7 @@
     {
       "name": "BoutiqueCarteVenteEssentiel",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_vente_essentiel",
@@ -2986,7 +2986,7 @@
     {
       "name": "BoutiqueCarteVenteIllimite",
       "type": "procedure",
-      "sortid": 157,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_vente_illimite",
@@ -3006,7 +3006,7 @@
     {
       "name": "OuvertureBoutiqueTicketBank",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_boutique_ticket_bank",
@@ -3042,7 +3042,7 @@
     {
       "name": "OuvertureBoutiqueCarte",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_boutique_carte",
@@ -3078,7 +3078,7 @@
     {
       "name": "BoutiqueCarteDeTransport",
       "type": "block",
-      "sortid": 160,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_de_transport",
@@ -3095,7 +3095,7 @@
     {
       "name": "BoutiqueCarteDeTransportPhy",
       "type": "gui",
-      "sortid": 161,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_de_transport_phy",
@@ -3111,7 +3111,7 @@
     {
       "name": "BoutiqueCarteDeTransportBank",
       "type": "gui",
-      "sortid": 162,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boutique_carte_de_transport_bank",
@@ -3127,7 +3127,7 @@
     {
       "name": "OuvertureBoutiqueDeCarte",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ouverture_boutique_de_carte",
@@ -3163,7 +3163,7 @@
     {
       "name": "AchatCartedeTransportPhy",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "achat_cartede_transport_phy",
@@ -3183,7 +3183,7 @@
     {
       "name": "AchatCardeDeTransportBank",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "achat_carde_de_transport_bank",
@@ -3203,7 +3203,7 @@
     {
       "name": "LigneABloc",
       "type": "block",
-      "sortid": 166,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_a_bloc",
@@ -3220,7 +3220,7 @@
     {
       "name": "LigneBBloc",
       "type": "block",
-      "sortid": 167,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_b_bloc",
@@ -3237,7 +3237,7 @@
     {
       "name": "LigneCbloc",
       "type": "block",
-      "sortid": 168,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_cbloc",
@@ -3254,7 +3254,7 @@
     {
       "name": "LigneDBloc",
       "type": "block",
-      "sortid": 169,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_d_bloc",
@@ -3271,7 +3271,7 @@
     {
       "name": "LigneEBloc",
       "type": "block",
-      "sortid": 170,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_e_bloc",
@@ -3288,7 +3288,7 @@
     {
       "name": "LigneFBloc",
       "type": "block",
-      "sortid": 171,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_f_bloc",
@@ -3305,7 +3305,7 @@
     {
       "name": "LigneGBloc",
       "type": "block",
-      "sortid": 172,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_g_bloc",
@@ -3322,7 +3322,7 @@
     {
       "name": "LigneHBloc",
       "type": "block",
-      "sortid": 173,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_h_bloc",
@@ -3339,7 +3339,7 @@
     {
       "name": "LigneAEBloc",
       "type": "block",
-      "sortid": 174,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_ae_bloc",
@@ -3356,7 +3356,7 @@
     {
       "name": "LigneBEBloc",
       "type": "block",
-      "sortid": 175,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_be_bloc",
@@ -3373,7 +3373,7 @@
     {
       "name": "LigneCEBloc",
       "type": "block",
-      "sortid": 176,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_ce_bloc",
@@ -3390,7 +3390,7 @@
     {
       "name": "LigneDEBloc",
       "type": "block",
-      "sortid": 177,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_de_bloc",
@@ -3407,7 +3407,7 @@
     {
       "name": "LigneAItem",
       "type": "item",
-      "sortid": 178,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_a_item",
@@ -3422,7 +3422,7 @@
     {
       "name": "LigneBItem",
       "type": "item",
-      "sortid": 179,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_b_item",
@@ -3437,7 +3437,7 @@
     {
       "name": "LigneCItem",
       "type": "item",
-      "sortid": 180,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_c_item",
@@ -3452,7 +3452,7 @@
     {
       "name": "LigneDItem",
       "type": "item",
-      "sortid": 181,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_d_item",
@@ -3467,7 +3467,7 @@
     {
       "name": "LigneEItem",
       "type": "item",
-      "sortid": 182,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_e_item",
@@ -3482,7 +3482,7 @@
     {
       "name": "LigneFItem",
       "type": "item",
-      "sortid": 183,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_f_item",
@@ -3497,7 +3497,7 @@
     {
       "name": "LigneGItem",
       "type": "item",
-      "sortid": 184,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_g_item",
@@ -3512,7 +3512,7 @@
     {
       "name": "LigneHItem",
       "type": "item",
-      "sortid": 185,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_h_item",
@@ -3527,7 +3527,7 @@
     {
       "name": "LigneAEItem",
       "type": "item",
-      "sortid": 186,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_ae_item",
@@ -3542,7 +3542,7 @@
     {
       "name": "LigneBEItem",
       "type": "item",
-      "sortid": 187,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_be_item",
@@ -3557,7 +3557,7 @@
     {
       "name": "LigneCEItem",
       "type": "item",
-      "sortid": 188,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_ce_item",
@@ -3572,7 +3572,7 @@
     {
       "name": "LigneDEItem",
       "type": "item",
-      "sortid": 189,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ligne_de_item",
@@ -3688,25 +3688,25 @@
     "en_us": {
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
-      "gui.busutilities.boutique_ticket_carte_select_phy.button_acheter_des_tickets": "Acheter des Tickets",
       "block.busutilities.controle_bloc": "Contrôle Bloc",
+      "gui.busutilities.boutique_ticket_carte_select_phy.button_acheter_des_tickets": "Acheter des Tickets",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
       "item.busutilities.carte_de_transport_illimite": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_calcule_bloc": "Calcule Bloc",
-      "gui.busutilities.boutique_carte_de_transport_phy.button_acheter": "Acheter",
       "gui.busutilities.boutique_cartes.label_vous_avez": "Vous avez :",
-      "gui.busutilities.boutique_ticket_carte_select_phy.label_boutique_de_tickets": "Boutique de Tickets ",
+      "gui.busutilities.boutique_carte_de_transport_phy.button_acheter": "Acheter",
       "gui.busutilities.crypto_phone_upgrade_gui.label_table_damelioration_de_cryptoph": "Table d\u0027amélioration de CryptoPhone",
+      "gui.busutilities.boutique_ticket_carte_select_phy.label_boutique_de_tickets": "Boutique de Tickets ",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique": "Paiement Bancaire",
-      "block.busutilities.terms_bloc": "Terms Bloc",
       "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
-      "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
-      "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
+      "block.busutilities.terms_bloc": "Terms Bloc",
       "item.busutilities.crypto_phone_max_core": "Coeur du CryptoPhone Max",
+      "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
+      "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_advence": "Coeur Advence",
       "item_group.busutilities.bus_utilities_creatif_tab": "Bus Utilities",
-      "gui.busutilities.boutique_ticket_bank.label_ticket_3_voyages_4_b": "Ticket 3 Voyages \u003d 7 B",
       "item.busutilities.crypto_phone_minicore": "Coeur du CryptoPhone Mini",
+      "gui.busutilities.boutique_ticket_bank.label_ticket_3_voyages_4_b": "Ticket 3 Voyages \u003d 7 B",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
       "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
       "item.busutilities.carte_de_transport_10_voyages_r_4": "Carte De Transport",
@@ -3716,9 +3716,9 @@
       "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
       "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
       "gui.busutilities.boutique_cartes.label_ticket_1_voyage_1_b": "Forfait 10 Voyages \u003d 9 B",
-      "item.busutilities.carte_de_transport_10_voyages_r_7": "Carte De Transport",
-      "block.busutilities.crypto_phone_upgrade_table": "Crypto Phone Upgrade Table",
       "item.busutilities.crypto_phone_pro": "Crypto Phone Pro",
+      "block.busutilities.crypto_phone_upgrade_table": "Crypto Phone Upgrade Table",
+      "item.busutilities.carte_de_transport_10_voyages_r_7": "Carte De Transport",
       "item.busutilities.carte_de_transport_10_voyages_r_8": "Carte De Transport",
       "item.busutilities.carte_de_transport_10_voyages_r_9": "Carte De Transport",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
@@ -4131,15 +4131,13 @@
   "workspaceSettings": {
     "modid": "busutilities",
     "modName": "NewBusUtilities",
-    "version": "1.1",
+    "version": "1.1.1",
     "author": "BlocBlocTheBloc",
     "websiteURL": "https://github.io/MC-Bus/MCB-BusUtilities",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [
-      "busverif"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

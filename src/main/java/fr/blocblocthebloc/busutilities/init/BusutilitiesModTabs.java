@@ -56,6 +56,7 @@ public class BusutilitiesModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> BLOKOS_MONEY_SYSTEM = REGISTRY.register("blokos_money_system",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.busutilities.blokos_money_system")).icon(() -> new ItemStack(BusutilitiesModItems.BLOKOS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(BusutilitiesModBlocks.BAB_BLOC.get().asItem());
 				tabData.accept(BusutilitiesModItems.BLOKOS.get());
 				tabData.accept(BusutilitiesModItems.CRYPTO_PHONE_BASE.get());
 				tabData.accept(BusutilitiesModItems.CRYPTO_PHONE_MINI.get());
@@ -63,13 +64,12 @@ public class BusutilitiesModTabs {
 				tabData.accept(BusutilitiesModItems.CRYPTO_PHONE_MAX.get());
 				tabData.accept(BusutilitiesModItems.CRYPTO_PHONE_PRO.get());
 				tabData.accept(BusutilitiesModItems.CRYPTO_PHONE_ELITE.get());
-				tabData.accept(BusutilitiesModBlocks.CRYPTO_PHONE_CORE_SHOP.get().asItem());
-				tabData.accept(BusutilitiesModBlocks.CRYPTO_PHONE_BASE_SHOP.get().asItem());
 				tabData.accept(BusutilitiesModBlocks.TERMS_BLOC.get().asItem());
 				tabData.accept(BusutilitiesModBlocks.CALCULE_BLOC.get().asItem());
+				tabData.accept(BusutilitiesModBlocks.CRYPTO_PHONE_CORE_SHOP.get().asItem());
 				tabData.accept(BusutilitiesModBlocks.BOUTIQUE_DE_TICKET_ET_CARTES.get().asItem());
-				tabData.accept(BusutilitiesModBlocks.BAB_BLOC.get().asItem());
 				tabData.accept(BusutilitiesModBlocks.BOUTIQUE_CARTE_DE_TRANSPORT.get().asItem());
+				tabData.accept(BusutilitiesModBlocks.CRYPTO_PHONE_BASE_SHOP.get().asItem());
 			})
 
 					.build());

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "busutilities:block/cryptophone_upgrade_table_down",
-    "up": "busutilities:block/cryptophone_upgrade_table_top",
-    "north": "busutilities:block/cryptophone_upgrade_table_faces",
-    "east": "busutilities:block/cryptophone_upgrade_table_faces",
-    "south": "busutilities:block/cryptophone_upgrade_table_faces",
-    "west": "busutilities:block/cryptophone_upgrade_table_faces",
-    "particle": "busutilities:block/cryptophone_upgrade_table_down"
+    "down": "busutilities:block/machine_verif_down",
+    "up": "busutilities:block/machine_verif_top",
+    "north": "busutilities:block/upgradecorephone",
+    "east": "busutilities:block/machine_verif_side_back",
+    "south": "busutilities:block/machine_verif_side_back",
+    "west": "busutilities:block/machine_verif_side_back",
+    "particle": "busutilities:block/machine_verif_down"
   },
   "render_type": "solid"
 }

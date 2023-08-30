@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "busutilities:block/boutique_de_ticket_et_cartes"
+    },
+    "facing=east": {
+      "model": "busutilities:block/boutique_de_ticket_et_cartes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "busutilities:block/boutique_de_ticket_et_cartes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "busutilities:block/boutique_de_ticket_et_cartes",
+      "y": 270
     }
   }
 }
