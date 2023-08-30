@@ -27,6 +27,30 @@ public class BusutilitiesModTabs {
 					tabData.accept(BusutilitiesModItems.CARTE_DE_TRANSPORT_10_VOYAGES.get());
 					tabData.accept(BusutilitiesModItems.CARTE_DE_TRANSPORT_ESSENTIEL.get());
 					tabData.accept(BusutilitiesModItems.CARTE_DE_TRANSPORT_ILLIMITE.get());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_A_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_B_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_CBLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_D_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_E_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_F_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_G_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_H_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_AE_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_BE_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_CE_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.LIGNE_DE_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModItems.LIGNE_A_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_B_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_C_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_D_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_E_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_F_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_G_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_H_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_AE_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_BE_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_CE_ITEM.get());
+					tabData.accept(BusutilitiesModItems.LIGNE_DE_ITEM.get());
 				})
 
 		);
@@ -45,6 +69,7 @@ public class BusutilitiesModTabs {
 					tabData.accept(BusutilitiesModBlocks.CALCULE_BLOC.get().asItem());
 					tabData.accept(BusutilitiesModBlocks.BOUTIQUE_DE_TICKET_ET_CARTES.get().asItem());
 					tabData.accept(BusutilitiesModBlocks.BAB_BLOC.get().asItem());
+					tabData.accept(BusutilitiesModBlocks.BOUTIQUE_CARTE_DE_TRANSPORT.get().asItem());
 				})
 
 		);

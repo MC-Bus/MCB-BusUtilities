@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "busutilities:block/boutique_carte_de_transport"
+    },
+    "facing=east": {
+      "model": "busutilities:block/boutique_carte_de_transport",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "busutilities:block/boutique_carte_de_transport",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "busutilities:block/boutique_carte_de_transport",
+      "y": 270
+    }
+  }
+}

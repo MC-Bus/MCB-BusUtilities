@@ -120,7 +120,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "OuvertureBoutiqueTicketCartesGUI"
+      "name": "OuvertureBoutiqueTicketCartes"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

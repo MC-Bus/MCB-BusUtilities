@@ -1,0 +1,107 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boutique_de_tickets",
+          "text": {
+            "fixedValue": "Boutique de Tickets "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 163,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_et_cartes",
+          "text": {
+            "fixedValue": "et Cartes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_acheter_des_tickets",
+          "text": "Acheter des Tickets",
+          "onClick": {
+            "name": "OuvertureBoutiqueTicketPhy"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 152,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_acheter_des_cartes",
+          "text": "Acheter des Cartes",
+          "width": 119,
+          "height": 20,
+          "x": 154,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_passer_en_paiement_bancaire",
+          "text": {
+            "fixedValue": "Passer en paiement bancaire"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pour_acheter_des_cartes",
+          "text": {
+            "fixedValue": "Pour acheter des cartes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 153,
+          "y": 165
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

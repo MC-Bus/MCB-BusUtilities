@@ -1,0 +1,157 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boutique_de_tickets",
+          "text": {
+            "fixedValue": "Boutique de Tickets "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 163,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_et_cartes",
+          "text": {
+            "fixedValue": "et Cartes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_acheter_des_tickets",
+          "text": "Acheter des Tickets",
+          "onClick": {
+            "name": "OuvertureBoutiqueTicketBank"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 152,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_acheter_des_cartes",
+          "text": "Acheter des Cartes",
+          "onClick": {
+            "name": "OuvertureBoutiqueCarte"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 154,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bienvenue",
+          "text": {
+            "fixedValue": "Bienvenue"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 3
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_0",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB0"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vous_avez",
+          "text": {
+            "fixedValue": "Vous avez :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 331,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_1",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 341,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos",
+          "text": {
+            "fixedValue": "Blokos"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 342,
+          "y": 138
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

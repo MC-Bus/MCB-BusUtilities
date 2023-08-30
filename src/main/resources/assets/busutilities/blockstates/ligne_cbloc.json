@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "busutilities:block/ligne_cbloc"
+    },
+    "facing=east": {
+      "model": "busutilities:block/ligne_cbloc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "busutilities:block/ligne_cbloc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "busutilities:block/ligne_cbloc",
+      "y": 270
+    }
+  }
+}

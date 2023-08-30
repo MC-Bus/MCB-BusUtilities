@@ -2564,74 +2564,6 @@
       "path": "~/Blocs Magasins/Boutique de Titre"
     },
     {
-      "name": "BoutiqueTicketCartesGUI",
-      "type": "gui",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boutique_ticket_cartes_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketCartesGUIScreen.java",
-          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueTicketCartesGUIButtonMessage.java",
-          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketCartesGUIMenu.java"
-        ]
-      },
-      "path": "~/Blocs Magasins/Boutique de Titre"
-    },
-    {
-      "name": "OuvertureBoutiqueTicketCartesGUI",
-      "type": "procedure",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ouverture_boutique_ticket_cartes_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketCartesGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocs Magasins/Boutique de Titre/Actions"
-    },
-    {
-      "name": "BoutiqueTicketCartesBankModeGUI",
-      "type": "gui",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boutique_ticket_cartes_bank_mode_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketCartesBankModeGUIMenu.java",
-          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketCartesBankModeGUIScreen.java",
-          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueTicketCartesBankModeGUIButtonMessage.java"
-        ]
-      },
-      "path": "~/Blocs Magasins/Boutique de Titre"
-    },
-    {
       "name": "BABBloc",
       "type": "block",
       "sortid": 137,
@@ -2740,15 +2672,95 @@
       "path": "~/Blokos Systeme/Notif"
     },
     {
-      "name": "OuvertureBoutiqueTicketCartesPhy",
-      "type": "procedure",
+      "name": "BoutiqueTicketCarteSelectPhy",
+      "type": "gui",
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ouverture_boutique_ticket_cartes_phy",
+      "registry_name": "boutique_ticket_carte_select_phy",
       "metadata": {
         "files": [
-          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketCartesPhyProcedure.java"
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketCarteSelectPhyScreen.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueTicketCarteSelectPhyButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketCarteSelectPhyMenu.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/GUIs"
+    },
+    {
+      "name": "Boutiqueticketcarteselectbank",
+      "type": "gui",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutiqueticketcarteselectbank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueticketcarteselectbankMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueticketcarteselectbankButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueticketcarteselectbankScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/GUIs"
+    },
+    {
+      "name": "BoutiqueTicketPhy",
+      "type": "gui",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_phy",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketPhyMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueTicketPhyButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketPhyScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/GUIs"
+    },
+    {
+      "name": "BoutiqueTicketBank",
+      "type": "gui",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueTicketBankScreen.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueTicketBankButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueTicketBankMenu.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/GUIs"
+    },
+    {
+      "name": "BoutiqueCartes",
+      "type": "gui",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_cartes",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueCartesMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueCartesButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueCartesScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/GUIs"
+    },
+    {
+      "name": "OuvertureBoutiqueTicketCartes",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverture_boutique_ticket_cartes",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketCartesProcedure.java"
         ],
         "dependencies": [
           {
@@ -2776,15 +2788,15 @@
       "path": "~/Blocs Magasins/Boutique de Titre/Actions"
     },
     {
-      "name": "OuvertureBoutiqueTicketCartesBank",
+      "name": "OuvertureBoutiqueTicketPhy",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ouverture_boutique_ticket_cartes_bank",
+      "registry_name": "ouverture_boutique_ticket_phy",
       "metadata": {
         "files": [
-          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketCartesBankProcedure.java"
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketPhyProcedure.java"
         ],
         "dependencies": [
           {
@@ -2810,6 +2822,767 @@
         ]
       },
       "path": "~/Blocs Magasins/Boutique de Titre/Actions"
+    },
+    {
+      "name": "BoutiqueTicketVente1V",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_1_v",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente1VProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueTicketVente3V",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_3_v",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente3VProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueTicketVente10V",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_10_v",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente10VProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueTicketVente1VBank",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_1_v_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente1VBankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueTicketVente3VBank",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_3_v_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente3VBankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueTicketVente10VBank",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_ticket_vente_10_v_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueTicketVente10VBankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Ticket"
+    },
+    {
+      "name": "BoutiqueCarteVente10V",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_vente_10_v",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueCarteVente10VProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Cartes"
+    },
+    {
+      "name": "BoutiqueCarteVenteEssentiel",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_vente_essentiel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueCarteVenteEssentielProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Cartes"
+    },
+    {
+      "name": "BoutiqueCarteVenteIllimite",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_vente_illimite",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/BoutiqueCarteVenteIllimiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions/Vente Cartes"
+    },
+    {
+      "name": "OuvertureBoutiqueTicketBank",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverture_boutique_ticket_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueTicketBankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions"
+    },
+    {
+      "name": "OuvertureBoutiqueCarte",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverture_boutique_carte",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueCarteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/Boutique de Titre/Actions"
+    },
+    {
+      "name": "BoutiqueCarteDeTransport",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_de_transport",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/block/boutique_carte_de_transport.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/BoutiqueCarteDeTransportBlock.java",
+          "src/main/resources/assets/busutilities/models/item/boutique_carte_de_transport.json",
+          "src/main/resources/assets/busutilities/blockstates/boutique_carte_de_transport.json"
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte"
+    },
+    {
+      "name": "BoutiqueCarteDeTransportPhy",
+      "type": "gui",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_de_transport_phy",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueCarteDeTransportPhyMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueCarteDeTransportPhyButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueCarteDeTransportPhyScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte/GUI"
+    },
+    {
+      "name": "BoutiqueCarteDeTransportBank",
+      "type": "gui",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boutique_carte_de_transport_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/network/BoutiqueCarteDeTransportBankButtonMessage.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/world/inventory/BoutiqueCarteDeTransportBankMenu.java",
+          "src/main/java/fr/blocblocthebloc/busutilities/client/gui/BoutiqueCarteDeTransportBankScreen.java"
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte/GUI"
+    },
+    {
+      "name": "OuvertureBoutiqueDeCarte",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouverture_boutique_de_carte",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/OuvertureBoutiqueDeCarteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte/Actions"
+    },
+    {
+      "name": "AchatCartedeTransportPhy",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achat_cartede_transport_phy",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/AchatCartedeTransportPhyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte/Actions"
+    },
+    {
+      "name": "AchatCardeDeTransportBank",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achat_carde_de_transport_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/procedures/AchatCardeDeTransportBankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocs Magasins/BoutiqueDeCarte/Actions"
+    },
+    {
+      "name": "LigneABloc",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_a_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneABlocBlock.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_a_bloc.json",
+          "src/main/resources/assets/busutilities/models/block/ligne_a_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/ligne_a_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneBBloc",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_b_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/block/ligne_b_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/ligne_b_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_b_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneBBlocBlock.java"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneCbloc",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_cbloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_cbloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneCblocBlock.java",
+          "src/main/resources/assets/busutilities/blockstates/ligne_cbloc.json",
+          "src/main/resources/assets/busutilities/models/block/ligne_cbloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneDBloc",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_d_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/block/ligne_d_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_d_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneDBlocBlock.java",
+          "src/main/resources/assets/busutilities/blockstates/ligne_d_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneEBloc",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_e_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/blockstates/ligne_e_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneEBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/block/ligne_e_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_e_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneFBloc",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_f_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_f_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/ligne_f_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneFBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/block/ligne_f_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneGBloc",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_g_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/block/ligne_g_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_g_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneGBlocBlock.java",
+          "src/main/resources/assets/busutilities/blockstates/ligne_g_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneHBloc",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_h_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/block/ligne_h_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/ligne_h_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneHBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_h_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneAEBloc",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_ae_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/blockstates/ligne_ae_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_ae_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneAEBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/block/ligne_ae_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneBEBloc",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_be_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/blockstates/ligne_be_bloc.json",
+          "src/main/resources/assets/busutilities/models/block/ligne_be_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneBEBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_be_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneCEBloc",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_ce_bloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/blockstates/ligne_ce_bloc.json",
+          "src/main/resources/assets/busutilities/models/item/ligne_ce_bloc.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneCEBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/block/ligne_ce_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneDEBloc",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_de_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/block/LigneDEBlocBlock.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_de_bloc.json",
+          "src/main/resources/assets/busutilities/blockstates/ligne_de_bloc.json",
+          "src/main/resources/assets/busutilities/models/block/ligne_de_bloc.json"
+        ]
+      },
+      "path": "~/Lignes/Bloc"
+    },
+    {
+      "name": "LigneAItem",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_a_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneAItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_a_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneBItem",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_b_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneBItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_b_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneCItem",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_c_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_c_item.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneCItemItem.java"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneDItem",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_d_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneDItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_d_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneEItem",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_e_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneEItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_e_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneFItem",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_f_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneFItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_f_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneGItem",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_g_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneGItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_g_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneHItem",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_h_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_h_item.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneHItemItem.java"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneAEItem",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_ae_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneAEItemItem.java",
+          "src/main/resources/assets/busutilities/models/item/ligne_ae_item.json"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneBEItem",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_be_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_be_item.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneBEItemItem.java"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneCEItem",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_ce_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_ce_item.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneCEItemItem.java"
+        ]
+      },
+      "path": "~/Lignes/Item"
+    },
+    {
+      "name": "LigneDEItem",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ligne_de_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/busutilities/models/item/ligne_de_item.json",
+          "src/main/java/fr/blocblocthebloc/busutilities/item/LigneDEItemItem.java"
+        ]
+      },
+      "path": "~/Lignes/Item"
     }
   ],
   "variable_elements": [
@@ -2914,288 +3687,206 @@
   "language_map": {
     "en_us": {
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_boutique_de_tickets": "Boutique de Tickets",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
-      "gui.busutilities.retraits_banque.label_bab": "BAB",
+      "gui.busutilities.boutique_ticket_carte_select_phy.button_acheter_des_tickets": "Acheter des Tickets",
       "block.busutilities.controle_bloc": "Contrôle Bloc",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
       "item.busutilities.carte_de_transport_illimite": "Carte De Transport",
       "gui.busutilities.calcule_bloc_gui.label_calcule_bloc": "Calcule Bloc",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_switch": "Switch",
+      "gui.busutilities.boutique_carte_de_transport_phy.button_acheter": "Acheter",
+      "gui.busutilities.boutique_cartes.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_carte_select_phy.label_boutique_de_tickets": "Boutique de Tickets ",
       "gui.busutilities.crypto_phone_upgrade_gui.label_table_damelioration_de_cryptoph": "Table d\u0027amélioration de CryptoPhone",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_paiement_physique": "Paiement physique",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_passer_en_paiement": "Passer en paiement",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique": "Paiement Bancaire",
-      "block.busutilities.calcule_bloc": "Calcule Bloc",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_indisponible_en": "Indisponible en",
-      "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
       "block.busutilities.terms_bloc": "Terms Bloc",
-      "item.busutilities.ticket_10_voyages_r_1": "Ticket 10 Voyages",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_mode_de_paiement_physique": "Mode de paiement : Bancaire",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_bancaire": "Physique",
+      "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
       "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
       "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.crypto_phone_max_core": "Coeur du CryptoPhone Max",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_advence": "Coeur Advence",
+      "item_group.busutilities.bus_utilities_creatif_tab": "Bus Utilities",
+      "gui.busutilities.boutique_ticket_bank.label_ticket_3_voyages_4_b": "Ticket 3 Voyages \u003d 7 B",
+      "item.busutilities.crypto_phone_minicore": "Coeur du CryptoPhone Mini",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
+      "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
+      "item.busutilities.carte_de_transport_10_voyages_r_4": "Carte De Transport",
+      "item.busutilities.carte_de_transport_10_voyages_r_5": "Carte De Transport",
+      "item.busutilities.carte_de_transport_10_voyages_r_6": "Carte De Transport",
+      "item.busutilities.ligne_de_item": "Ligne D Express Item",
+      "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
+      "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
+      "gui.busutilities.boutique_cartes.label_ticket_1_voyage_1_b": "Forfait 10 Voyages \u003d 9 B",
+      "item.busutilities.carte_de_transport_10_voyages_r_7": "Carte De Transport",
+      "block.busutilities.crypto_phone_upgrade_table": "Crypto Phone Upgrade Table",
+      "item.busutilities.crypto_phone_pro": "Crypto Phone Pro",
+      "item.busutilities.carte_de_transport_10_voyages_r_8": "Carte De Transport",
+      "item.busutilities.carte_de_transport_10_voyages_r_9": "Carte De Transport",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
+      "gui.busutilities.calcule_bloc_gui.label_blokos": "Blokos",
+      "block.busutilities.crypto_phone_base_shop": "Boutique Instantané de CryptoPhone Base",
+      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez": "Vous avez :",
+      "item.busutilities.ligne_f_item": "Ligne F Item",
+      "gui.busutilities.boutique_ticket_carte_select_phy.label_et_cartes": "et Cartes",
+      "gui.busutilities.banqueablokos.label_banque_a_blokos": "Banque A Blokos",
+      "item.busutilities.ligne_ce_item": "Ligne C Express Item",
+      "block.busutilities.ligne_d_bloc": "Ligne D Bloc",
+      "gui.busutilities.terms_bloc_gui.label_bienvenue": "Bienvenue",
+      "gui.busutilities.boutique_carte_de_transport_bank.label_vous_avez": "Vous avez :",
+      "block.busutilities.ligne_g_bloc": "Ligne G Bloc",
+      "block.busutilities.ligne_ae_bloc": "Ligne A Express Bloc",
+      "gui.busutilities.crypto_phone_upgrade_gui.button_ameliorer": "Améliorer",
+      "item.busutilities.ligne_c_item": "Ligne C Item",
+      "gui.busutilities.boutique_cartes.label_boutique_de_tickets": "Boutique de Tickets",
+      "gui.busutilities.bab_lite.label_vous_avez_sur_votre_compte": "Vous avez sur votre compte :",
+      "item.busutilities.ticket_1_voyage": "Ticket 1 Voyage",
+      "gui.busutilities.banqueablokos.button_depots": "Dépots",
+      "gui.busutilities.boutique_carte_de_transport_phy.label_boutique_de_carte_de_transport": "Boutique de Carte de Transport",
+      "item.busutilities.ticket_3_voyages_2_r": "Ticket 3 Voyages",
+      "item.busutilities.carte_de_transport_essentiel": "Carte De Transport",
+      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_elite": "Coeur Élite",
+      "gui.busutilities.boutique_ticket_bank.label_bienvenue": "Bienvenue",
+      "block.busutilities.ligne_cbloc": "Ligne C Bloc",
+      "item.busutilities.blokos": "Blokos",
+      "item.busutilities.ligne_be_item": "Ligne B Express Item",
+      "gui.busutilities.boutique_cartes.button_ticket_1_voyage": "Ticket 1 Voyage",
+      "gui.busutilities.terms_bloc_gui.button_terminer": "Terminer",
+      "gui.busutilities.terms_bloc_gui.label_vous_avez": "Vous avez :",
+      "gui.busutilities.boutique_ticket_bank.button_ticket_10_voyages": "Ticket 10 Voyages",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_max": "Coeur Max",
+      "gui.busutilities.boutique_cartes.label_bienvenue": "Bienvenue",
+      "item.busutilities.ligne_a_item": "Ligne A Item",
+      "block.busutilities.boutique_de_ticket_et_cartes": "Boutique de Ticket et Cartes",
+      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
+      "item.busutilities.ticket_3_voyages": "Ticket 3 Voyages",
+      "gui.busutilities.bab_lite.label_bienvenue": "Bienvenue",
+      "item.busutilities.carte_de_transport_essentiel_r_2": "Carte De Transport",
+      "item.busutilities.carte_de_transport_essentiel_r_1": "Carte De Transport",
+      "block.busutilities.ligne_h_bloc": "Ligne H Bloc",
+      "item.busutilities.ligne_ae_item": "Ligne A Express Item",
+      "gui.busutilities.boutique_cartes.button_acheter_essentiel": "Acheter Essentiel",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_mini": "Coeur Mini",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_vous_avez": "Vous avez :",
+      "block.busutilities.ligne_b_bloc": "Ligne B Bloc",
+      "item.busutilities.crypto_phone_mini": "Crypto Phone Mini",
+      "item.busutilities.ligne_h_item": "Ligne H Item",
+      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_max": "Coeur Max",
+      "gui.busutilities.banqueablokos.label_bab": "BAB",
+      "item.busutilities.ligne_b_item": "Ligne B Item",
+      "gui.busutilities.terms_bloc_gui.signature": "",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_boutique_de_tickets": "Boutique de Tickets ",
+      "item.busutilities.carte_de_transport_essentiel_r_4": "Carte De Transport",
+      "item.busutilities.carte_de_transport_essentiel_r_3": "Carte De Transport",
+      "gui.busutilities.boutique_ticket_carte_select_phy.button_acheter_des_cartes": "Acheter des Cartes",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_paiement_physique": "Paiement Physique",
+      "block.busutilities.crypto_phone_core_shop": "Boutique de Coeur de CryptoPhone",
+      "item_group.busutilities.bus_utilisties_tab": "Bus Utilisties",
+      "gui.busutilities.boutique_carte_de_transport_bank.label_boutique_de_carte_de_transport": "Boutique de Carte de Transport",
+      "gui.busutilities.boutique_cartes.button_ticket_10_voyages": "Ticket 10 Voyages",
+      "gui.busutilities.retraits_banque.label_bab": "BAB",
+      "gui.busutilities.boutique_carte_de_transport_phy.label_carte_de_transport_5_b": "Carte de Transport \u003d 5 B",
+      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
+      "gui.busutilities.boutique_ticket_phy.button_ticket_3_voyages": "Ticket 3 Voyages",
+      "gui.busutilities.boutiqueticketcarteselectbank.button_acheter_des_tickets": "Acheter des Tickets",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
+      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_paiement_physique": "Paiement physique",
+      "block.busutilities.calcule_bloc": "Calcule Bloc",
+      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_indisponible_en": "Indisponible en",
+      "gui.busutilities.boutique_ticket_phy.label_ticket_3_voyages_4_b": "Ticket 3 Voyages \u003d 7 B",
+      "gui.busutilities.boutique_cartes.label_blokos": "Blokos",
+      "gui.busutilities.boutiqueticketcarteselectbank.button_acheter_des_cartes": "Acheter des Cartes",
+      "gui.busutilities.boutique_ticket_phy.button_ticket_10_voyages": "Ticket 10 Voyages",
+      "item.busutilities.ticket_10_voyages_r_1": "Ticket 10 Voyages",
+      "item.busutilities.ligne_g_item": "Ligne G Item",
+      "gui.busutilities.boutique_ticket_phy.label_ticket_1_voyage_1_b": "Ticket 1 Voyage \u003d 3 B",
       "item.busutilities.ticket_10_voyages_r_5": "Ticket 10 Voyages",
       "item.busutilities.ticket_10_voyages_r_4": "Ticket 10 Voyages",
+      "block.busutilities.ligne_ce_bloc": "Ligne C Express Bloc",
       "item.busutilities.ticket_10_voyages_r_3": "Ticket 10 Voyages",
       "item.busutilities.ticket_10_voyages_r_2": "Ticket 10 Voyages",
       "item.busutilities.ticket_10_voyages_r_9": "Ticket 10 Voyages",
       "item.busutilities.ticket_10_voyages_r_8": "Ticket 10 Voyages",
       "item.busutilities.ticket_10_voyages_r_7": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_6": "Ticket 10 Voyages",
-      "gui.busutilities.calcule_bloc_gui.label_empty1": "\u003d",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_pro": "Coeur Pro",
-      "item_group.busutilities.bus_utilities_creatif_tab": "Bus Utilities",
-      "item.busutilities.crypto_phone_minicore": "Coeur du CryptoPhone Mini",
+      "gui.busutilities.calcule_bloc_gui.label_empty1": "\u003d",
+      "item.busutilities.ticket_10_voyages_r_6": "Ticket 10 Voyages",
       "gui.busutilities.terms_bloc_gui.label_terms_bloc": "Terms Bloc",
+      "gui.busutilities.boutique_ticket_carte_select_phy.label_passer_en_paiement_bancaire": "Passer en paiement bancaire",
       "gui.busutilities.debug_blokos_sys.debug": "",
       "item_group.busutilities.blokos_money_system": "Blokos Système",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_passer_en_paiement": "Passer en paiement",
+      "gui.busutilities.boutique_carte_de_transport_bank.label_bienvenue": "Bienvenue",
       "gui.busutilities.depots_banque.label_retraits_de_fonds": "Dépots de fonds",
-      "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
       "gui.busutilities.terms_bloc_gui.label_lu_et_approuve": "lu et approuvé",
-      "item.busutilities.carte_de_transport_10_voyages_r_4": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_5": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_6": "Carte De Transport",
+      "gui.busutilities.boutique_cartes.button_ticket_3_voyages": "Ticket 3 Voyages",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_blokos": "Blokos",
       "gui.busutilities.calcule_bloc_gui.resultat": "",
-      "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
-      "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_pour_acheter_des_cartes": "Pour acheter des cartes",
+      "gui.busutilities.boutique_ticket_bank.label_boutique_de_tickets": "Boutique de Tickets",
+      "block.busutilities.ligne_be_bloc": "Ligne B Express Bloc",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
       "gui.busutilities.bab_lite.label_banque_a_blokos": "Banque à Blokos",
       "item.busutilities.crypto_phone_pro_core": "Coeur du CryptoPhone Pro",
-      "item.busutilities.crypto_phone_pro": "Crypto Phone Pro",
-      "block.busutilities.crypto_phone_upgrade_table": "Crypto Phone Upgrade Table",
-      "item.busutilities.carte_de_transport_10_voyages_r_7": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_8": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_9": "Carte De Transport",
+      "gui.busutilities.boutique_cartes.label_ticket_3_voyages_4_b": "Forfait Essentiel \u003d 4 B",
       "gui.busutilities.terms_bloc_gui.label_blokos": "Blokos",
       "item.busutilities.crypto_phone_advence_core": "Coeur du CryptoPhone Advence",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
-      "gui.busutilities.calcule_bloc_gui.label_blokos": "Blokos",
-      "block.busutilities.crypto_phone_base_shop": "Boutique Instantané de CryptoPhone Base",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_et_cartes_de_transport": "et Cartes de transport",
+      "gui.busutilities.boutique_ticket_bank.label_blokos": "Blokos",
       "gui.busutilities.depots_banque.label_bab": "BAB",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez": "Vous avez :",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_cartes": "Liste des Cartes",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_tickets": "Liste des Tickets",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_boutique_de_tickets": "Boutique de Tickets",
+      "gui.busutilities.boutique_cartes.button_acheter_illimite": "Acheter Illimité",
       "item.busutilities.ticket_3_voyages_1_r": "Ticket 3 Voyages",
-      "gui.busutilities.banqueablokos.label_banque_a_blokos": "Banque A Blokos",
       "gui.busutilities.retraits_banque.button_retiter_1_blokos": "Retiter 1 Blokos",
       "gui.busutilities.banqueablokos.label_blokos1": "Blokos",
-      "gui.busutilities.terms_bloc_gui.label_bienvenue": "Bienvenue",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_mini": "Coeur Mini",
       "item.busutilities.crypto_phone_base": "Crypto Phone Base",
+      "block.busutilities.ligne_a_bloc": "Ligne A Bloc",
+      "gui.busutilities.boutique_ticket_phy.label_ticket_10_voyages_11b": "Ticket 10 Voyages \u003d 15 B",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_switch": "Switch",
       "block.busutilities.bab_bloc": "Distributeur de Blokos de la BAB",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue": "Bienvenue",
       "item.busutilities.carte_de_transport_10_voyages": "Carte De Transport",
+      "gui.busutilities.boutique_cartes.label_ticket_10_voyages_11b": "Forfait Illimité \u003d 256 B",
+      "gui.busutilities.boutique_carte_de_transport_bank.label_carte_de_transport_5_b": "Carte de Transport \u003d 5 B",
       "item.busutilities.crypto_phone_advence": "Crypto Phone Advence",
-      "gui.busutilities.crypto_phone_upgrade_gui.button_ameliorer": "Améliorer",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_et_cartes_de_transport": "et Cartes de transport",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_cartes": "Liste des Cartes",
+      "block.busutilities.ligne_f_bloc": "Ligne F Bloc",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_bienvenue": "Bienvenue",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_advence": "Coeur Advence",
-      "gui.busutilities.bab_lite.label_vous_avez_sur_votre_compte": "Vous avez sur votre compte :",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_indisponible_en": "Indisponible en",
-      "item.busutilities.ticket_1_voyage": "Ticket 1 Voyage",
-      "gui.busutilities.banqueablokos.button_depots": "Dépots",
+      "block.busutilities.ligne_de_bloc": "Ligne D Express Bloc",
+      "gui.busutilities.boutique_carte_de_transport_bank.button_acheter": "Acheter",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_et_cartes": "et Cartes",
+      "block.busutilities.ligne_e_bloc": "Ligne E Bloc",
       "gui.busutilities.retraits_banque.label_retraits_de_fonds": "Retraits de fonds",
-      "item.busutilities.ticket_3_voyages_2_r": "Ticket 3 Voyages",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_paiement_physique": "Paiement Physique",
+      "gui.busutilities.boutique_cartes.button_acheter_10_voyages": "Acheter 10 Voyages",
+      "gui.busutilities.boutiqueticketcarteselectbank.label_passer_en_paiement_bancaire": "Passer en paiement bancaire",
       "gui.busutilities.banqueablokos.label_vous_avez": "Vous avez :",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_tickets": "Liste des Tickets",
-      "item.busutilities.carte_de_transport_essentiel": "Carte De Transport",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_elite": "Coeur Élite",
       "item.busutilities.crypto_phone_max": "Crypto Phone Max",
-      "item.busutilities.blokos": "Blokos",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_bancaire": "Bancaire",
-      "gui.busutilities.terms_bloc_gui.button_terminer": "Terminer",
-      "gui.busutilities.terms_bloc_gui.label_vous_avez": "Vous avez :",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_max": "Coeur Max",
-      "gui.busutilities.depots_banque.button_retiter_1_blokos": "Déposer",
+      "gui.busutilities.boutique_ticket_phy.label_boutique_de_tickets": "Boutique de Tickets",
+      "item.busutilities.ligne_d_item": "Ligne D Item",
+      "gui.busutilities.boutique_ticket_carte_select_phy.label_pour_acheter_des_cartes": "Pour acheter des cartes",
       "item.busutilities.ticket_vierge": "Ticket Vierge",
-      "block.busutilities.boutique_de_ticket_et_cartes": "Boutique de Ticket et Cartes",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
-      "item.busutilities.ticket_3_voyages": "Ticket 3 Voyages",
-      "gui.busutilities.bab_lite.label_bienvenue": "Bienvenue",
+      "gui.busutilities.depots_banque.button_retiter_1_blokos": "Déposer",
       "gui.busutilities.calcule_bloc_gui.label_vous_avez": "Vous avez :",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
       "gui.busutilities.crypto_phone_upgrade_gui.label_empty": "+",
       "item.busutilities.crypto_phone_elite": "Crypto Phone Élite",
-      "item.busutilities.carte_de_transport_essentiel_r_2": "Carte De Transport",
-      "item.busutilities.carte_de_transport_essentiel_r_1": "Carte De Transport",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_mini": "Coeur Mini",
       "item.busutilities.carte_de_transport": "Carte De Transport",
       "gui.busutilities.debug_blokos_sys.button_set": "Set",
+      "gui.busutilities.boutique_ticket_bank.label_ticket_1_voyage_1_b": "Ticket 1 Voyage \u003d 3 B",
       "gui.busutilities.banqueablokos.label_bonjour": "Bonjour",
-      "item.busutilities.crypto_phone_mini": "Crypto Phone Mini",
+      "gui.busutilities.boutique_ticket_bank.button_ticket_1_voyage": "Ticket 1 Voyage",
       "gui.busutilities.banqueablokos.button_retraits": "Retraits",
+      "gui.busutilities.boutique_ticket_bank.label_ticket_10_voyages_11b": "Ticket 10 Voyages \u003d 15 B",
+      "block.busutilities.boutique_carte_de_transport": "Boutique de Carte de Transport",
       "gui.busutilities.banqueablokos.label_blokos": "BLOKOS",
       "gui.busutilities.bab_lite.label_blokos": "Blokos",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_max": "Coeur Max",
+      "gui.busutilities.boutique_carte_de_transport_bank.label_blokos": "Blokos",
       "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_pro": "Coeur Pro",
-      "gui.busutilities.banqueablokos.label_bab": "BAB",
-      "gui.busutilities.terms_bloc_gui.signature": "",
+      "item.busutilities.ligne_e_item": "Ligne E Item",
       "gui.busutilities.crypto_phone_core_shop_banque_gui.label_blokos": "Blokos",
-      "item.busutilities.carte_de_transport_essentiel_r_4": "Carte De Transport",
-      "item.busutilities.carte_de_transport_essentiel_r_3": "Carte De Transport",
+      "gui.busutilities.boutique_ticket_bank.label_vous_avez": "Vous avez :",
       "gui.busutilities.calcule_bloc_gui.label_empty": "+",
       "gui.busutilities.banqueablokos.label_nom_joueur": "NOM JOUEUR",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_paiement_physique": "Paiement Physique",
-      "block.busutilities.crypto_phone_core_shop": "Boutique de Coeur de CryptoPhone",
-      "item_group.busutilities.bus_utilisties_tab": "Bus Utilisties",
-      "gui.busutilities.calcule_bloc_gui.button_valider": "Valider"
-    },
-    "fr_fr": {
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_boutique_de_tickets": "Boutique de Tickets",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
-      "gui.busutilities.retraits_banque.label_bab": "BAB",
-      "block.busutilities.controle_bloc": "Contrôle Bloc",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
-      "item.busutilities.carte_de_transport_illimite": "Carte De Transport",
-      "gui.busutilities.calcule_bloc_gui.label_calcule_bloc": "Calcule Bloc",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_switch": "Switch",
-      "gui.busutilities.crypto_phone_upgrade_gui.label_table_damelioration_de_cryptoph": "Table d\u0027amélioration de CryptoPhone",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_mini_8_blokos": "Coeur Mini \u003d 8 B",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_paiement_physique": "Paiement physique",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_passer_en_paiement": "Passer en paiement",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique": "Paiement Bancaire",
-      "block.busutilities.calcule_bloc": "Calcule Bloc",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_indisponible_en": "Indisponible en",
-      "item.busutilities.crypto_phone_elite_core": "Coeur du CryptoPhone Élite",
-      "block.busutilities.terms_bloc": "Terms Bloc",
-      "item.busutilities.ticket_10_voyages_r_1": "Ticket 10 Voyages",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_bancaire": "Bancaire",
-      "item.busutilities.ticket_10_voyages": "Ticket 10 Voyages",
-      "gui.busutilities.calcule_bloc_gui.label_bienvenue": "Bienvenue",
-      "item.busutilities.crypto_phone_max_core": "Coeur du CryptoPhone Max",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_advence": "Coeur Advence",
-      "item.busutilities.ticket_10_voyages_r_5": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_4": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_3": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_2": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_9": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_8": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_7": "Ticket 10 Voyages",
-      "item.busutilities.ticket_10_voyages_r_6": "Ticket 10 Voyages",
-      "gui.busutilities.calcule_bloc_gui.label_empty1": "\u003d",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_pro": "Coeur Pro",
-      "item_group.busutilities.bus_utilities_creatif_tab": "Bus Utilities",
-      "item.busutilities.crypto_phone_minicore": "Coeur du CryptoPhone Mini",
-      "gui.busutilities.terms_bloc_gui.label_terms_bloc": "Terms Bloc",
-      "gui.busutilities.debug_blokos_sys.debug": "",
-      "item_group.busutilities.blokos_money_system": "Blokos Système",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_elite_128_b_paiement_ba": "Coeur Élite \u003d 128 B (Paiement Bancaire Uniquement)",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_passer_en_paiement": "Passer en paiement",
-      "gui.busutilities.depots_banque.label_retraits_de_fonds": "Dépots de fonds",
-      "item.busutilities.carte_de_transport_10_voyages_r_3": "Carte De Transport",
-      "gui.busutilities.terms_bloc_gui.label_lu_et_approuve": "lu et approuvé",
-      "item.busutilities.carte_de_transport_10_voyages_r_4": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_5": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_6": "Carte De Transport",
-      "gui.busutilities.calcule_bloc_gui.resultat": "",
-      "item.busutilities.carte_de_transport_10_voyages_r_1": "Carte De Transport",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_mode_de_paiement_physique": "Mode de paiement : Physique",
-      "item.busutilities.carte_de_transport_10_voyages_r_2": "Carte De Transport",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_advence_30_blokos": "Coeur Advence \u003d 30 B",
-      "gui.busutilities.bab_lite.label_banque_a_blokos": "Banque à Blokos",
-      "item.busutilities.crypto_phone_pro_core": "Coeur du CryptoPhone Pro",
-      "item.busutilities.crypto_phone_pro": "Crypto Phone Pro",
-      "block.busutilities.crypto_phone_upgrade_table": "Crypto Phone Upgrade Table",
-      "item.busutilities.carte_de_transport_10_voyages_r_7": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_8": "Carte De Transport",
-      "item.busutilities.carte_de_transport_10_voyages_r_9": "Carte De Transport",
-      "gui.busutilities.terms_bloc_gui.label_blokos": "Blokos",
-      "item.busutilities.crypto_phone_advence_core": "Coeur du CryptoPhone Advence",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_elite": "Coeur Élite",
-      "gui.busutilities.calcule_bloc_gui.label_blokos": "Blokos",
-      "block.busutilities.crypto_phone_base_shop": "Boutique Instantané de CryptoPhone Base",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_et_cartes_de_transport": "et Cartes de transport",
-      "gui.busutilities.depots_banque.label_bab": "BAB",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez": "Vous avez :",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_cartes": "Liste des Cartes",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_tickets": "Liste des Tickets",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_boutique_de_tickets": "Boutique de Tickets",
-      "item.busutilities.ticket_3_voyages_1_r": "Ticket 3 Voyages",
-      "gui.busutilities.banqueablokos.label_banque_a_blokos": "Banque A Blokos",
-      "gui.busutilities.retraits_banque.button_retiter_1_blokos": "Retiter 1 Blokos",
-      "gui.busutilities.banqueablokos.label_blokos1": "Blokos",
-      "gui.busutilities.terms_bloc_gui.label_bienvenue": "Bienvenue",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_mini": "Coeur Mini",
-      "item.busutilities.crypto_phone_base": "Crypto Phone Base",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone": "Boutique de Coeur de CryptoPhone",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_switch": "Switch",
-      "block.busutilities.bab_bloc": "Distributeur de Blokos de la BAB",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue": "Bienvenue",
-      "item.busutilities.carte_de_transport_10_voyages": "Carte De Transport",
-      "item.busutilities.crypto_phone_advence": "Crypto Phone Advence",
-      "gui.busutilities.crypto_phone_upgrade_gui.button_ameliorer": "Améliorer",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b": "Coeur Max \u003d 45 B",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_et_cartes_de_transport": "et Cartes de transport",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.button_liste_des_cartes": "Liste des Cartes",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_advence": "Coeur Advence",
-      "gui.busutilities.bab_lite.label_vous_avez_sur_votre_compte": "Vous avez sur votre compte :",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_indisponible_en": "Indisponible en",
-      "item.busutilities.ticket_1_voyage": "Ticket 1 Voyage",
-      "gui.busutilities.banqueablokos.button_depots": "Dépots",
-      "gui.busutilities.retraits_banque.label_retraits_de_fonds": "Retraits de fonds",
-      "item.busutilities.ticket_3_voyages_2_r": "Ticket 3 Voyages",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_paiement_physique": "Paiement Physique",
-      "gui.busutilities.banqueablokos.label_vous_avez": "Vous avez :",
-      "gui.busutilities.boutique_ticket_cartes_gui.button_liste_des_tickets": "Liste des Tickets",
-      "item.busutilities.carte_de_transport_essentiel": "Carte De Transport",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_elite": "Coeur Élite",
-      "item.busutilities.crypto_phone_max": "Crypto Phone Max",
-      "item.busutilities.blokos": "Blokos",
-      "gui.busutilities.boutique_ticket_cartes_gui.label_bancaire": "Bancaire",
-      "gui.busutilities.terms_bloc_gui.button_terminer": "Terminer",
-      "gui.busutilities.terms_bloc_gui.label_vous_avez": "Vous avez :",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_max": "Coeur Max",
-      "gui.busutilities.depots_banque.button_retiter_1_blokos": "Déposer",
-      "item.busutilities.ticket_vierge": "Ticket Vierge",
-      "block.busutilities.boutique_de_ticket_et_cartes": "Boutique de Ticket et Cartes",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
-      "item.busutilities.ticket_3_voyages": "Ticket 3 Voyages",
-      "gui.busutilities.bab_lite.label_bienvenue": "Bienvenue",
-      "gui.busutilities.calcule_bloc_gui.label_vous_avez": "Vous avez :",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.label_coeur_pro_64_b": "Coeur Pro \u003d 64 B",
-      "gui.busutilities.crypto_phone_upgrade_gui.label_empty": "+",
-      "item.busutilities.crypto_phone_elite": "Crypto Phone Élite",
-      "item.busutilities.carte_de_transport_essentiel_r_2": "Carte De Transport",
-      "item.busutilities.carte_de_transport_essentiel_r_1": "Carte De Transport",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_mini": "Coeur Mini",
-      "item.busutilities.carte_de_transport": "Carte De Transport",
-      "gui.busutilities.debug_blokos_sys.button_set": "Set",
-      "gui.busutilities.banqueablokos.label_bonjour": "Bonjour",
-      "item.busutilities.crypto_phone_mini": "Crypto Phone Mini",
-      "gui.busutilities.banqueablokos.button_retraits": "Retraits",
-      "gui.busutilities.banqueablokos.label_blokos": "BLOKOS",
-      "gui.busutilities.bab_lite.label_blokos": "Blokos",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.button_coeur_max": "Coeur Max",
-      "gui.busutilities.crypto_phone_core_shop_physique_gui.button_coeur_pro": "Coeur Pro",
-      "gui.busutilities.banqueablokos.label_bab": "BAB",
-      "gui.busutilities.terms_bloc_gui.signature": "",
-      "gui.busutilities.crypto_phone_core_shop_banque_gui.label_blokos": "Blokos",
-      "item.busutilities.carte_de_transport_essentiel_r_4": "Carte De Transport",
-      "item.busutilities.carte_de_transport_essentiel_r_3": "Carte De Transport",
-      "gui.busutilities.calcule_bloc_gui.label_empty": "+",
-      "gui.busutilities.banqueablokos.label_nom_joueur": "NOM JOUEUR",
-      "gui.busutilities.boutique_ticket_cartes_bank_mode_gui.label_paiement_physique": "Paiement Physique",
-      "block.busutilities.crypto_phone_core_shop": "Boutique de Coeur de CryptoPhone",
-      "item_group.busutilities.bus_utilisties_tab": "Bus Utilisties",
+      "gui.busutilities.boutique_ticket_phy.button_ticket_1_voyage": "Ticket 1 Voyage",
+      "gui.busutilities.boutique_ticket_bank.button_ticket_3_voyages": "Ticket 3 Voyages",
       "gui.busutilities.calcule_bloc_gui.button_valider": "Valider"
     }
   },
@@ -3390,13 +4081,48 @@
             "children": [
               {
                 "name": "Actions",
-                "children": []
+                "children": [
+                  {
+                    "name": "Vente Ticket",
+                    "children": []
+                  },
+                  {
+                    "name": "Vente Cartes",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "GUIs",
                 "children": []
               }
             ]
+          },
+          {
+            "name": "BoutiqueDeCarte",
+            "children": [
+              {
+                "name": "GUI",
+                "children": []
+              },
+              {
+                "name": "Actions",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lignes",
+        "children": [
+          {
+            "name": "Bloc",
+            "children": []
+          },
+          {
+            "name": "Item",
+            "children": []
           }
         ]
       }
@@ -3405,13 +4131,15 @@
   "workspaceSettings": {
     "modid": "busutilities",
     "modName": "NewBusUtilities",
-    "version": "1.0.0",
+    "version": "1",
     "author": "BlocBlocTheBloc",
     "websiteURL": "https://github.io/MC-Bus/MCB-BusUtilities",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "busverif"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

@@ -19,8 +19,13 @@ import fr.blocblocthebloc.busutilities.world.inventory.CryptoPhoneUpgradeGUIMenu
 import fr.blocblocthebloc.busutilities.world.inventory.CryptoPhoneCoreShopPhysiqueGUIMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.CryptoPhoneCoreShopBanqueGUIMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.CalculeBlocGUIMenu;
-import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCartesGUIMenu;
-import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCartesBankModeGUIMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueticketcarteselectbankMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketPhyMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketCarteSelectPhyMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueTicketBankMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueCartesMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueCarteDeTransportPhyMenu;
+import fr.blocblocthebloc.busutilities.world.inventory.BoutiqueCarteDeTransportBankMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.BanqueablokosMenu;
 import fr.blocblocthebloc.busutilities.world.inventory.BABLiteMenu;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
@@ -36,8 +41,12 @@ public class BusutilitiesModMenus {
 	public static final RegistryObject<MenuType<DebugBlokosSysMenu>> DEBUG_BLOKOS_SYS = REGISTRY.register("debug_blokos_sys", () -> IForgeMenuType.create(DebugBlokosSysMenu::new));
 	public static final RegistryObject<MenuType<TermsBlocGUIMenu>> TERMS_BLOC_GUI = REGISTRY.register("terms_bloc_gui", () -> IForgeMenuType.create(TermsBlocGUIMenu::new));
 	public static final RegistryObject<MenuType<CalculeBlocGUIMenu>> CALCULE_BLOC_GUI = REGISTRY.register("calcule_bloc_gui", () -> IForgeMenuType.create(CalculeBlocGUIMenu::new));
-	public static final RegistryObject<MenuType<BoutiqueTicketCartesGUIMenu>> BOUTIQUE_TICKET_CARTES_GUI = REGISTRY.register("boutique_ticket_cartes_gui", () -> IForgeMenuType.create(BoutiqueTicketCartesGUIMenu::new));
-	public static final RegistryObject<MenuType<BoutiqueTicketCartesBankModeGUIMenu>> BOUTIQUE_TICKET_CARTES_BANK_MODE_GUI = REGISTRY.register("boutique_ticket_cartes_bank_mode_gui",
-			() -> IForgeMenuType.create(BoutiqueTicketCartesBankModeGUIMenu::new));
 	public static final RegistryObject<MenuType<BABLiteMenu>> BAB_LITE = REGISTRY.register("bab_lite", () -> IForgeMenuType.create(BABLiteMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueTicketCarteSelectPhyMenu>> BOUTIQUE_TICKET_CARTE_SELECT_PHY = REGISTRY.register("boutique_ticket_carte_select_phy", () -> IForgeMenuType.create(BoutiqueTicketCarteSelectPhyMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueticketcarteselectbankMenu>> BOUTIQUETICKETCARTESELECTBANK = REGISTRY.register("boutiqueticketcarteselectbank", () -> IForgeMenuType.create(BoutiqueticketcarteselectbankMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueTicketPhyMenu>> BOUTIQUE_TICKET_PHY = REGISTRY.register("boutique_ticket_phy", () -> IForgeMenuType.create(BoutiqueTicketPhyMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueTicketBankMenu>> BOUTIQUE_TICKET_BANK = REGISTRY.register("boutique_ticket_bank", () -> IForgeMenuType.create(BoutiqueTicketBankMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueCartesMenu>> BOUTIQUE_CARTES = REGISTRY.register("boutique_cartes", () -> IForgeMenuType.create(BoutiqueCartesMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueCarteDeTransportPhyMenu>> BOUTIQUE_CARTE_DE_TRANSPORT_PHY = REGISTRY.register("boutique_carte_de_transport_phy", () -> IForgeMenuType.create(BoutiqueCarteDeTransportPhyMenu::new));
+	public static final RegistryObject<MenuType<BoutiqueCarteDeTransportBankMenu>> BOUTIQUE_CARTE_DE_TRANSPORT_BANK = REGISTRY.register("boutique_carte_de_transport_bank", () -> IForgeMenuType.create(BoutiqueCarteDeTransportBankMenu::new));
 }

@@ -22,7 +22,7 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-import fr.blocblocthebloc.busutilities.procedures.OuvertureBoutiqueTicketCartesGUIProcedure;
+import fr.blocblocthebloc.busutilities.procedures.OuvertureBoutiqueTicketCartesProcedure;
 
 public class BoutiqueDeTicketEtCartesBlock extends Block {
 	public BoutiqueDeTicketEtCartesBlock() {
@@ -58,7 +58,7 @@ public class BoutiqueDeTicketEtCartesBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		OuvertureBoutiqueTicketCartesGUIProcedure.execute(world, x, y, z, entity);
+		OuvertureBoutiqueTicketCartesProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

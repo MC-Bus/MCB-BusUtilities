@@ -1,0 +1,213 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boutique_de_tickets",
+          "text": {
+            "fixedValue": "Boutique de Tickets"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 165,
+          "y": 41
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 199,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ticket_1_voyage",
+          "text": "Ticket 1 Voyage",
+          "onClick": {
+            "name": "BoutiqueTicketVente1VBank"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 11,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ticket_3_voyages",
+          "text": "Ticket 3 Voyages",
+          "onClick": {
+            "name": "BoutiqueTicketVente3VBank"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 8,
+          "y": 83
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ticket_10_voyages",
+          "text": "Ticket 10 Voyages",
+          "onClick": {
+            "name": "BoutiqueTicketVente10VBank"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 6,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ticket_1_voyage_1_b",
+          "text": {
+            "fixedValue": "Ticket 1 Voyage = 3 B"
+          },
+          "color": {
+            "value": -39322,
+            "falpha": 0.0
+          },
+          "x": 9,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ticket_3_voyages_4_b",
+          "text": {
+            "fixedValue": "Ticket 3 Voyages = 7 B"
+          },
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "x": 7,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ticket_10_voyages_11b",
+          "text": {
+            "fixedValue": "Ticket 10 Voyages = 15 B"
+          },
+          "color": {
+            "value": -16750849,
+            "falpha": 0.0
+          },
+          "x": 4,
+          "y": 200
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bienvenue",
+          "text": {
+            "fixedValue": "Bienvenue"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 4
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_0",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB0"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vous_avez",
+          "text": {
+            "fixedValue": "Vous avez :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 333,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_info_bab_1",
+          "text": {
+            "fixedValue": "",
+            "name": "InfoBAB1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 343,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blokos",
+          "text": {
+            "fixedValue": "Blokos"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 347,
+          "y": 129
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "busutilities:block/air",
+    "up": "busutilities:block/air",
+    "north": "busutilities:block/be",
+    "east": "busutilities:block/be",
+    "south": "busutilities:block/be",
+    "west": "busutilities:block/be",
+    "particle": "busutilities:block/air"
+  },
+  "render_type": "translucent"
+}
