@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
@@ -16,7 +17,6 @@ import fr.blocblocthebloc.busutilities.procedures.InfoBAB0Procedure;
 import fr.blocblocthebloc.busutilities.network.CryptoPhoneCoreShopBanqueGUIButtonMessage;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class CryptoPhoneCoreShopBanqueGUIScreen extends AbstractContainerScreen<CryptoPhoneCoreShopBanqueGUIMenu> {
@@ -44,34 +44,28 @@ public class CryptoPhoneCoreShopBanqueGUIScreen extends AbstractContainerScreen<
 	private static final ResourceLocation texture = new ResourceLocation("busutilities:textures/screens/crypto_phone_core_shop_banque_gui.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("busutilities:textures/screens/cryptophone_mini_core.png"));
-		this.blit(ms, this.leftPos + -101, this.topPos + 7, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("busutilities:textures/screens/cryptophone_mini_core.png"), this.leftPos + -101, this.topPos + 7, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("busutilities:textures/screens/cryptophone_advence_core.png"));
-		this.blit(ms, this.leftPos + -115, this.topPos + 37, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("busutilities:textures/screens/cryptophone_advence_core.png"), this.leftPos + -115, this.topPos + 37, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("busutilities:textures/screens/cryptophone_max_core.png"));
-		this.blit(ms, this.leftPos + -94, this.topPos + 64, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("busutilities:textures/screens/cryptophone_max_core.png"), this.leftPos + -94, this.topPos + 64, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("busutilities:textures/screens/cryptophone_pro_core.png"));
-		this.blit(ms, this.leftPos + 257, this.topPos + 8, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("busutilities:textures/screens/cryptophone_pro_core.png"), this.leftPos + 257, this.topPos + 8, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("busutilities:textures/screens/cryptophone_elite_core.png"));
-		this.blit(ms, this.leftPos + 268, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("busutilities:textures/screens/cryptophone_elite_core.png"), this.leftPos + 268, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -91,23 +85,23 @@ public class CryptoPhoneCoreShopBanqueGUIScreen extends AbstractContainerScreen<
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone"), 5, 5, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique"), 44, 18, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos"), -120, 117, -9044002);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos"), -120, 129, -14928129);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b"), -120, 144, -589991);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b"), -120, 159, -54471);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba"), -120, 171, -12058369);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez"), 199, 76, -1);
-		this.font.draw(poseStack,
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_boutique_de_coeur_de_cryptophone"), 5, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_paiement_physique"), 44, 18, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_mini_8_blokos"), -120, 117, -9044002, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_advence_30_blokos"), -120, 129, -14928129, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_max_45_b"), -120, 144, -589991, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_pro_64_b"), -120, 159, -54471, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_coeur_elite_128_b_paiement_ba"), -120, 171, -12058369, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_vous_avez"), 199, 76, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB1Procedure.execute(entity), 205, 90, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_blokos"), 209, 109, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue"), 68, -34, -1);
-		this.font.draw(poseStack,
+				InfoBAB1Procedure.execute(entity), 205, 90, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_blokos"), 209, 109, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.crypto_phone_core_shop_banque_gui.label_bienvenue"), 68, -34, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB0Procedure.execute(entity), 70, -22, -1);
+				InfoBAB0Procedure.execute(entity), 70, -22, -1, false);
 	}
 
 	@Override

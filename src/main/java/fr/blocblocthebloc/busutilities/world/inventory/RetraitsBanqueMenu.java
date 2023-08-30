@@ -36,7 +36,7 @@ public class RetraitsBanqueMenu extends AbstractContainerMenu implements Supplie
 	public RetraitsBanqueMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(BusutilitiesModMenus.RETRAITS_BANQUE.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(1);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -66,7 +66,7 @@ public class RetraitsBanqueMenu extends AbstractContainerMenu implements Supplie
 						this.bound = true;
 					});
 			} else { // might be bound to block
-				BlockEntity ent = inv.player != null ? inv.player.level.getBlockEntity(pos) : null;
+				BlockEntity ent = inv.player != null ? inv.player.level().getBlockEntity(pos) : null;
 				if (ent != null) {
 					ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
@@ -76,6 +76,8 @@ public class RetraitsBanqueMenu extends AbstractContainerMenu implements Supplie
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 77, 36) {
+			private final int slot = 0;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

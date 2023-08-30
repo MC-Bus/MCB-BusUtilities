@@ -24,7 +24,7 @@ public class ControleCarteIllimiteProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Carte Illimit\u00E9 Valide - \u00A7kX \u00A7aVoyage Restant"), true);
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == BusutilitiesModItems.CARTE_DE_TRANSPORT_ILLIMITE.get()) {
 			{
@@ -35,7 +35,7 @@ public class ControleCarteIllimiteProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Carte Illimit\u00E9 Valide - \u00A7kX \u00A7aVoyage Restant"), true);
 		} else {
 			ControlePasTitreProcedure.execute(entity);

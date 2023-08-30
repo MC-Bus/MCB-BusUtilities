@@ -19,12 +19,12 @@ public class BlokosGenCryptoPhoneProProcedure {
 			if (BusutilitiesModVariables.MapVariables.get(world).CryptoPhoneGenState == true) {
 				BusutilitiesModVariables.MapVariables.get(world).CryptoPhoneGenState = false;
 				BusutilitiesModVariables.MapVariables.get(world).syncData(world);
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("[CryptoPhone] : Vos Blokos irons dans votre inventaire"), true);
 			} else {
 				BusutilitiesModVariables.MapVariables.get(world).CryptoPhoneGenState = true;
 				BusutilitiesModVariables.MapVariables.get(world).syncData(world);
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("[CryptoPhone] : Vos Blokos irons dans sur votre compte bancaire"), true);
 			}
 		} else {
@@ -36,7 +36,7 @@ public class BlokosGenCryptoPhoneProProcedure {
 					_setstack.setCount(1);
 					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("[CryptoPhone] : 1 Blokos \u00E0 \u00E9t\u00E9 ajout\u00E9 \u00E0 votre inventaire"), true);
 			} else {
 				if (entity instanceof Player _player)

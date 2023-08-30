@@ -37,7 +37,7 @@ public class BoutiqueCarteDeTransportPhyMenu extends AbstractContainerMenu imple
 	public BoutiqueCarteDeTransportPhyMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(BusutilitiesModMenus.BOUTIQUE_CARTE_DE_TRANSPORT_PHY.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(2);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -67,7 +67,7 @@ public class BoutiqueCarteDeTransportPhyMenu extends AbstractContainerMenu imple
 						this.bound = true;
 					});
 			} else { // might be bound to block
-				BlockEntity ent = inv.player != null ? inv.player.level.getBlockEntity(pos) : null;
+				BlockEntity ent = inv.player != null ? inv.player.level().getBlockEntity(pos) : null;
 				if (ent != null) {
 					ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
@@ -77,12 +77,16 @@ public class BoutiqueCarteDeTransportPhyMenu extends AbstractContainerMenu imple
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
+			private final int slot = 0;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return BusutilitiesModItems.BLOKOS.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 35) {
+			private final int slot = 1;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

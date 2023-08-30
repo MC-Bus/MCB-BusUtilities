@@ -25,7 +25,7 @@ public class TermsBlocActionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, HashMap guistate) {
 		if (entity == null || guistate == null)
 			return;
-		if (guistate.containsKey("checkbox:signature") ? ((Checkbox) guistate.get("checkbox:signature")).selected() : false) {
+		if (guistate.containsKey("checkbox:signature") && ((Checkbox) guistate.get("checkbox:signature")).selected()) {
 			{
 				double _setval = (entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BusutilitiesModVariables.PlayerVariables())).Blokos + 3;
 				entity.getCapability(BusutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -65,7 +65,7 @@ public class TermsBlocActionProcedure {
 			}
 			EntreBlokosProcedure.execute(entity);
 		} else {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("[TermsBloc] : Vous n'avez pas lu et approuv\u00E9"), false);
 		}
 	}

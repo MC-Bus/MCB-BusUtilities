@@ -2,8 +2,8 @@
 package fr.blocblocthebloc.busutilities.block;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -26,7 +26,7 @@ import fr.blocblocthebloc.busutilities.procedures.OuvertureBoutiqueTicketCartesP
 
 public class BoutiqueDeTicketEtCartesBlock extends Block {
 	public BoutiqueDeTicketEtCartesBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WOOD).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.WOOD).strength(1f, 10f));
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class BoutiqueDeTicketEtCartesBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

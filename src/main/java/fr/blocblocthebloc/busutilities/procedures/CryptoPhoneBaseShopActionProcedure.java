@@ -43,7 +43,7 @@ public class CryptoPhoneBaseShopActionProcedure {
 			}
 			SortieBlokosProcedure.execute(entity);
 		} else {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("[Boutique Instantat\u00E9] : Vous n'avez pas assez de fonds"), false);
 		}
 	}

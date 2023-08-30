@@ -31,7 +31,7 @@ public class BoutiqueticketcarteselectbankMenu extends AbstractContainerMenu imp
 	public BoutiqueticketcarteselectbankMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(BusutilitiesModMenus.BOUTIQUETICKETCARTESELECTBANK.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);
 		BlockPos pos = null;
 		if (extraData != null) {

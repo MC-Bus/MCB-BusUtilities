@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
@@ -19,7 +20,6 @@ import fr.blocblocthebloc.busutilities.procedures.InfoBAB0Procedure;
 import fr.blocblocthebloc.busutilities.network.CalculeBlocGUIButtonMessage;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class CalculeBlocGUIScreen extends AbstractContainerScreen<CalculeBlocGUIMenu> {
@@ -44,20 +44,19 @@ public class CalculeBlocGUIScreen extends AbstractContainerScreen<CalculeBlocGUI
 	private static final ResourceLocation texture = new ResourceLocation("busutilities:textures/screens/calcule_bloc_gui.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
-		resultat.render(ms, mouseX, mouseY, partialTicks);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		resultat.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		RenderSystem.disableBlend();
 	}
 
@@ -79,25 +78,25 @@ public class CalculeBlocGUIScreen extends AbstractContainerScreen<CalculeBlocGUI
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_calcule_bloc"), 56, 6, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_bienvenue"), 64, -34, -1);
-		this.font.draw(poseStack,
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_calcule_bloc"), 56, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_bienvenue"), 64, -34, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB0Procedure.execute(entity), 70, -20, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_vous_avez"), 201, 48, -1);
-		this.font.draw(poseStack,
+				InfoBAB0Procedure.execute(entity), 70, -20, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_vous_avez"), 201, 48, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB1Procedure.execute(entity), 210, 66, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_blokos"), 213, 84, -1);
-		this.font.draw(poseStack,
+				InfoBAB1Procedure.execute(entity), 210, 66, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_blokos"), 213, 84, -1, false);
+		guiGraphics.drawString(this.font,
 
-				ValeurCalcule1Procedure.execute(entity), 65, 26, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_empty"), 73, 43, -12829636);
-		this.font.draw(poseStack,
+				ValeurCalcule1Procedure.execute(entity), 65, 26, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_empty"), 73, 43, -12829636, false);
+		guiGraphics.drawString(this.font,
 
-				ValeurCalcule2Procedure.execute(entity), 65, 59, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.calcule_bloc_gui.label_empty1"), 73, 77, -12829636);
+				ValeurCalcule2Procedure.execute(entity), 65, 59, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.calcule_bloc_gui.label_empty1"), 73, 77, -12829636, false);
 	}
 
 	@Override

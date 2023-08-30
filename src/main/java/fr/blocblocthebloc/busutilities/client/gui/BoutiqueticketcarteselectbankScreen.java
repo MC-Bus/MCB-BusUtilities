@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
@@ -16,7 +17,6 @@ import fr.blocblocthebloc.busutilities.procedures.InfoBAB0Procedure;
 import fr.blocblocthebloc.busutilities.network.BoutiqueticketcarteselectbankButtonMessage;
 import fr.blocblocthebloc.busutilities.BusutilitiesMod;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class BoutiqueticketcarteselectbankScreen extends AbstractContainerScreen<BoutiqueticketcarteselectbankMenu> {
@@ -41,19 +41,18 @@ public class BoutiqueticketcarteselectbankScreen extends AbstractContainerScreen
 	private static final ResourceLocation texture = new ResourceLocation("busutilities:textures/screens/boutiqueticketcarteselectbank.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		RenderSystem.disableBlend();
 	}
 
@@ -72,18 +71,18 @@ public class BoutiqueticketcarteselectbankScreen extends AbstractContainerScreen
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_boutique_de_tickets"), 37, 5, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_et_cartes"), 61, 16, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_bienvenue"), 62, -34, -1);
-		this.font.draw(poseStack,
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_boutique_de_tickets"), 37, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_et_cartes"), 61, 16, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_bienvenue"), 62, -34, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB0Procedure.execute(entity), 69, -20, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_vous_avez"), 205, 60, -1);
-		this.font.draw(poseStack,
+				InfoBAB0Procedure.execute(entity), 69, -20, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_vous_avez"), 205, 60, -1, false);
+		guiGraphics.drawString(this.font,
 
-				InfoBAB1Procedure.execute(entity), 215, 78, -1);
-		this.font.draw(poseStack, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_blokos"), 216, 101, -1);
+				InfoBAB1Procedure.execute(entity), 215, 78, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.busutilities.boutiqueticketcarteselectbank.label_blokos"), 216, 101, -1, false);
 	}
 
 	@Override

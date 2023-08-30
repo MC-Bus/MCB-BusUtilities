@@ -35,7 +35,7 @@ public class ControleTicket10VoyagesR1Procedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Ticket 10 Voyage Valide - 0 Voyage Restant"), true);
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == BusutilitiesModItems.TICKET_10_VOYAGES_R_1.get()) {
 			if (entity instanceof Player _player) {
@@ -55,7 +55,7 @@ public class ControleTicket10VoyagesR1Procedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A7a[Contr\u00F4le Bloc] : Ticket 10 Voyage Valide - 0 Voyage Restant"), true);
 		} else {
 			ControleCarte10VoyagesProcedure.execute(entity);

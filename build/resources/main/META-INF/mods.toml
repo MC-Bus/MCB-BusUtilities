@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="busutilities"
-version="1"
+version="1.1"
 displayName="NewBusUtilities"
 credits="Principal mod du Projet MCB"
 displayURL="https://github.io/MC-Bus/MCB-BusUtilities"
@@ -13,7 +13,7 @@ authors="BlocBlocTheBloc"
 [[dependencies.busutilities]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

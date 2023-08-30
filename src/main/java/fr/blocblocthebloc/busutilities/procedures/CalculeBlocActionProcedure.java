@@ -51,7 +51,7 @@ public class CalculeBlocActionProcedure {
 			EntreBlokosProcedure.execute(entity);
 			CalculeBlocGUIOuvertureProcedure.execute(world, x, y, z, entity);
 		} else {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("[Calcule Bloc] : Calcule Incorrecte"), false);
 			CalculeBlocGUIOuvertureProcedure.execute(world, x, y, z, entity);
 		}

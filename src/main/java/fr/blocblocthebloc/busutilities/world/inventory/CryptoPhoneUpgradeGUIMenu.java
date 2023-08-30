@@ -36,7 +36,7 @@ public class CryptoPhoneUpgradeGUIMenu extends AbstractContainerMenu implements 
 	public CryptoPhoneUpgradeGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(BusutilitiesModMenus.CRYPTO_PHONE_UPGRADE_GUI.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -66,7 +66,7 @@ public class CryptoPhoneUpgradeGUIMenu extends AbstractContainerMenu implements 
 						this.bound = true;
 					});
 			} else { // might be bound to block
-				BlockEntity ent = inv.player != null ? inv.player.level.getBlockEntity(pos) : null;
+				BlockEntity ent = inv.player != null ? inv.player.level().getBlockEntity(pos) : null;
 				if (ent != null) {
 					ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
@@ -76,14 +76,18 @@ public class CryptoPhoneUpgradeGUIMenu extends AbstractContainerMenu implements 
 			}
 		}
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 38) {
+			private final int slot = 1;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 161, 37) {
+			private final int slot = 2;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 14, 38) {
+			private final int slot = 0;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

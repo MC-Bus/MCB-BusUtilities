@@ -36,7 +36,7 @@ public class CryptoPhoneCoreShopBanqueGUIMenu extends AbstractContainerMenu impl
 	public CryptoPhoneCoreShopBanqueGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(BusutilitiesModMenus.CRYPTO_PHONE_CORE_SHOP_BANQUE_GUI.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(2);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -66,7 +66,7 @@ public class CryptoPhoneCoreShopBanqueGUIMenu extends AbstractContainerMenu impl
 						this.bound = true;
 					});
 			} else { // might be bound to block
-				BlockEntity ent = inv.player != null ? inv.player.level.getBlockEntity(pos) : null;
+				BlockEntity ent = inv.player != null ? inv.player.level().getBlockEntity(pos) : null;
 				if (ent != null) {
 					ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;
@@ -76,6 +76,8 @@ public class CryptoPhoneCoreShopBanqueGUIMenu extends AbstractContainerMenu impl
 			}
 		}
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 85, 40) {
+			private final int slot = 1;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

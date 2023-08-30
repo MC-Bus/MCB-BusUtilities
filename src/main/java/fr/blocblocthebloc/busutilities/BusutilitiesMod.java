@@ -38,6 +38,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import fr.blocblocthebloc.busutilities.init.BusutilitiesModTabs;
 import fr.blocblocthebloc.busutilities.init.BusutilitiesModMenus;
 import fr.blocblocthebloc.busutilities.init.BusutilitiesModItems;
 import fr.blocblocthebloc.busutilities.init.BusutilitiesModBlocks;
@@ -52,10 +53,12 @@ public class BusutilitiesMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		BusutilitiesModBlocks.REGISTRY.register(bus);
+
 		BusutilitiesModItems.REGISTRY.register(bus);
 
-		BusutilitiesModMenus.REGISTRY.register(bus);
+		BusutilitiesModTabs.REGISTRY.register(bus);
 
+		BusutilitiesModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
